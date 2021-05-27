@@ -1,0 +1,111 @@
+
+.submitButton{
+    margin-top: 10%;
+    margin-left:20%;
+    margin-bottom: 10%;
+  }
+  
+  
+  .passwordValidity{
+    text-align: left;
+    display: none;
+  }
+  
+  #lockIcon{
+  
+      position: relative;
+      top: 2px;
+      right: 2px;
+    
+  }
+  
+  .displayBlock{
+    display: block;
+  }
+  
+  .validity-text{
+    font-size: x-small;
+    color: red;
+    text-align: left;
+  }
+  
+  .budgetTrackerHeading {
+  
+      width: 18%;
+      /* float: ; */
+      position: relative;
+      /* right: -3%; */
+      left: 41%;
+  
+  }
+  
+  .trackerHeading {
+      font-family: 'Inter', sans-serif;
+      font-size: 30px;
+      font-weight: 300;
+  }
+  
+  .cross > .MuiSvgIcon-root{
+    font-size: small !important;
+    margin-right: 1px;
+    margin-top: 2px;
+    position: relative;
+    top: 2px;
+    color: red;
+  }
+  .accepted > .MuiSvgIcon-root{
+    font-size: small !important;
+    margin-right: 1px;
+    margin-top: 2px;
+    position: relative;
+    top: 2px;
+    color:green;
+    
+  }
+  
+  .strong{
+    color : green
+  }
+  
+  .valid{
+    display: none;
+    color: green;
+  }
+  
+  .Number{
+    display: block !important;
+  }
+  
+  .Symbol{
+    display: block !important;
+  }
+  
+  .length{
+    display: block !important;
+  }
+  
+  .LowerAndUpperCase{
+    display: block !important;
+  }
+  
+  .confirmed{
+    display: block !important;
+  }
+  
+  .alreadySignedInText {
+      display: inline-block;
+      margin-right: 7px;
+  }
+  
+  .alreadySignedIn {
+      display: inline-block;
+      /* float: right; */
+      position: relative;
+      /* right: 0%; */
+      left: 80%;
+      margin-top: 1%;
+  }
+  
+  .CheckValidity{
+    display: none;
+  }

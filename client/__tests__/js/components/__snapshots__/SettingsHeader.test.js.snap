@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePageHeader renders correctly settings header snap shot 1`] = `ShallowWrapper {}`;
+
+exports[`SettingsHeader Component renders correctly 1`] = `ShallowWrapper {}`;

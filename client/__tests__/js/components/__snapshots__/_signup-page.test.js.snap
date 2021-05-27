@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormLayout Form renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`FormLayout renders Email text box correctly 1`] = `ShallowWrapper {}`;
+
+exports[`FormLayout renders Password field correctly 1`] = `ShallowWrapper {}`;
+
+exports[`FormLayout renders confirm Password field correctly 1`] = `ShallowWrapper {}`;
+
+exports[`FormLayout renders confirm Password field correctly 2`] = `ShallowWrapper {}`;

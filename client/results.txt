@@ -1,0 +1,5 @@
+
+> client@1.0.0 test /home/kausik/Desktop/Budget-tracker/client
+> jest "--no-color"
+
+[32mjest-html-reporter >> Report generated (/home/kausik/Desktop/Budget-tracker/client/test-report.html)[0m

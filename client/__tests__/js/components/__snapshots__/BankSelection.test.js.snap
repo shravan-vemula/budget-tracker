@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormLayout renders BankSelection correctly 1`] = `ShallowWrapper {}`;
+
+exports[`FormLayout renders BankSelectionHeaderText correctly 1`] = `ShallowWrapper {}`;
+
+exports[`FormLayout renders BankSelectionLayout1 correctly 1`] = `ShallowWrapper {}`;
+
+exports[`FormLayout renders BankSelectionLayout2 correctly 1`] = `ShallowWrapper {}`;
+
+exports[`FormLayout renders SideText correctly 1`] = `ShallowWrapper {}`;
+
+exports[`FormLayout renders SideText1 correctly 1`] = `ShallowWrapper {}`;
+
+exports[`FormLayout renders SideText2 correctly 1`] = `ShallowWrapper {}`;
+
+exports[`FormLayout renders SideText3 correctly 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,10 @@
+
+> client@1.0.0 test /home/kausik/Desktop/Budget-tracker/client
+> jest
+
+[32mjest-html-reporter >> Report generated (/home/kausik/Desktop/Budget-tracker/client/test-report.html)[0m
+
+> client@1.0.0 test /home/kausik/Desktop/Budget-tracker/client
+> jest
+
+[32mjest-html-reporter >> Report generated (/home/kausik/Desktop/Budget-tracker/client/test-report.html)[0m

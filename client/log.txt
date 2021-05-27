@@ -1,0 +1,2338 @@
+
+> client@1.0.0 test /home/kausik/Desktop/Budget-tracker/client
+> jest "--coverage"
+
+PASS __tests__/js/components/navbar.test.js
+  ● Console
+
+    console.error
+      Warning: React does not recognize the `data-testId` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `data-testid` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+          in div (created by NavBar)
+          in div (created by ForwardRef(Toolbar))
+          in ForwardRef(Toolbar) (created by WithStyles(ForwardRef(Toolbar)))
+          in WithStyles(ForwardRef(Toolbar)) (created by NavBar)
+          in header (created by ForwardRef(Paper))
+          in ForwardRef(Paper) (created by WithStyles(ForwardRef(Paper)))
+          in WithStyles(ForwardRef(Paper)) (created by ForwardRef(AppBar))
+          in ForwardRef(AppBar) (created by WithStyles(ForwardRef(AppBar)))
+          in WithStyles(ForwardRef(AppBar)) (created by NavBar)
+          in div (created by NavBar)
+          in NavBar
+          in Router (created by BrowserRouter)
+          in BrowserRouter
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at validateProperty$1 (node_modules/react-dom/cjs/react-dom.development.js:5549:7)
+      at warnUnknownProperties (node_modules/react-dom/cjs/react-dom.development.js:5595:21)
+      at validateProperties$2 (node_modules/react-dom/cjs/react-dom.development.js:5619:3)
+      at validatePropertiesInDevelopment (node_modules/react-dom/cjs/react-dom.development.js:5662:5)
+      at setInitialProperties (node_modules/react-dom/cjs/react-dom.development.js:5941:5)
+      at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:7499:3)
+
+    console.log
+      [36m<body>[39m
+        [36m<div />[39m
+      [36m</body>[39m
+
+      at logDOM (node_modules/@testing-library/dom/dist/pretty-dom.js:68:37)
+
+ › 2 snapshots obsolete.
+   • FormLayout navbar snap shot 1
+   • FormLayout renders correctly 1
+PASS __tests__/js/components/BankSelection-snapshots.test.js
+  ● Console
+
+    console.error
+      Warning: React does not recognize the `data-testId` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `data-testid` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+          in div (created by ForwardRef(Autocomplete))
+          in ForwardRef(Autocomplete) (created by WithStyles(ForwardRef(Autocomplete)))
+          in WithStyles(ForwardRef(Autocomplete)) (created by SearchBar)
+          in div (created by SearchBar)
+          in SearchBar (created by BankSelectionLayout1)
+          in div (created by BankSelectionLayout1)
+          in BankSelectionLayout1
+          in Router (created by BrowserRouter)
+          in BrowserRouter
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at validateProperty$1 (node_modules/react-dom/cjs/react-dom.development.js:5549:7)
+      at warnUnknownProperties (node_modules/react-dom/cjs/react-dom.development.js:5595:21)
+      at validateProperties$2 (node_modules/react-dom/cjs/react-dom.development.js:5619:3)
+      at validatePropertiesInDevelopment (node_modules/react-dom/cjs/react-dom.development.js:5662:5)
+      at setInitialProperties (node_modules/react-dom/cjs/react-dom.development.js:5941:5)
+      at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:7499:3)
+
+PASS __tests__/js/components/_budget-metrics-card.test.js
+  ● Console
+
+    console.error
+      Warning: Failed prop type: Invalid prop `variant` of value `p` supplied to `ForwardRef(Typography)`, expected one of ["h1","h2","h3","h4","h5","h6","subtitle1","subtitle2","body1","body2","caption","button","overline","srOnly","inherit"].
+          in ForwardRef(Typography) (created by WithStyles(ForwardRef(Typography)))
+          in WithStyles(ForwardRef(Typography)) (created by BudgetMetricsCard)
+          in div (created by ForwardRef(Grid))
+          in ForwardRef(Grid) (created by WithStyles(ForwardRef(Grid)))
+          in WithStyles(ForwardRef(Grid)) (created by BudgetMetricsCard)
+          in div (created by ForwardRef(CardContent))
+          in ForwardRef(CardContent) (created by WithStyles(ForwardRef(CardContent)))
+          in WithStyles(ForwardRef(CardContent)) (created by BudgetMetricsCard)
+          in div (created by ForwardRef(Paper))
+          in ForwardRef(Paper) (created by WithStyles(ForwardRef(Paper)))
+          in WithStyles(ForwardRef(Paper)) (created by ForwardRef(Card))
+          in ForwardRef(Card) (created by WithStyles(ForwardRef(Card)))
+          in WithStyles(ForwardRef(Card)) (created by BudgetMetricsCard)
+          in div (created by BudgetMetricsCard)
+          in BudgetMetricsCard
+
+      at printWarning (node_modules/prop-types/checkPropTypes.js:20:15)
+      at checkPropTypes (node_modules/prop-types/checkPropTypes.js:82:11)
+      at validatePropTypes (node_modules/react/cjs/react.development.js:1714:7)
+      at Object.createElementWithValidation [as createElement] (node_modules/react/cjs/react.development.js:1813:5)
+      at WithStyles (node_modules/@material-ui/styles/withStyles/withStyles.js:97:42)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+      at updateForwardRef (node_modules/react-dom/cjs/react-dom.development.js:16816:20)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:18645:16)
+
+PASS __tests__/js/components/AccordionAndAnimation.test.js
+  ● Console
+
+    console.log
+      []
+
+      at AccordionForAccounts (src/js/_components/molecules/AccordionForAccounts.js:134:11)
+
+    console.error
+      Warning: React does not recognize the `data-testId` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `data-testid` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+          in div (created by ForwardRef(ButtonBase))
+          in ForwardRef(ButtonBase) (created by WithStyles(ForwardRef(ButtonBase)))
+          in WithStyles(ForwardRef(ButtonBase)) (created by ForwardRef(AccordionSummary))
+          in ForwardRef(AccordionSummary) (created by WithStyles(ForwardRef(AccordionSummary)))
+          in WithStyles(ForwardRef(AccordionSummary)) (created by WithStyles(WithStyles(ForwardRef(AccordionSummary))))
+          in WithStyles(WithStyles(ForwardRef(AccordionSummary))) (created by AccordionForAccounts)
+          in div (created by ForwardRef(Paper))
+          in ForwardRef(Paper) (created by WithStyles(ForwardRef(Paper)))
+          in WithStyles(ForwardRef(Paper)) (created by ForwardRef(Accordion))
+          in ForwardRef(Accordion) (created by WithStyles(ForwardRef(Accordion)))
+          in WithStyles(ForwardRef(Accordion)) (created by WithStyles(WithStyles(ForwardRef(Accordion))))
+          in WithStyles(WithStyles(ForwardRef(Accordion))) (created by AccordionForAccounts)
+          in div (created by AccordionForAccounts)
+          in AccordionForAccounts (created by AccountsPage)
+          in div (created by ForwardRef(Grid))
+          in ForwardRef(Grid) (created by WithStyles(ForwardRef(Grid)))
+          in WithStyles(ForwardRef(Grid)) (created by AccountsPage)
+          in div (created by ForwardRef(Grid))
+          in ForwardRef(Grid) (created by WithStyles(ForwardRef(Grid)))
+          in WithStyles(ForwardRef(Grid)) (created by AccountsPage)
+          in div (created by AccountsPage)
+          in AccountsPage
+          in Router (created by BrowserRouter)
+          in BrowserRouter
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at validateProperty$1 (node_modules/react-dom/cjs/react-dom.development.js:5549:7)
+      at warnUnknownProperties (node_modules/react-dom/cjs/react-dom.development.js:5595:21)
+      at validateProperties$2 (node_modules/react-dom/cjs/react-dom.development.js:5619:3)
+      at validatePropertiesInDevelopment (node_modules/react-dom/cjs/react-dom.development.js:5662:5)
+      at setInitialProperties (node_modules/react-dom/cjs/react-dom.development.js:5941:5)
+      at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:7499:3)
+
+    console.log
+      []
+
+      at AccordionForAccounts (src/js/_components/molecules/AccordionForAccounts.js:134:11)
+
+    console.log
+      []
+
+      at AccordionForAccounts (src/js/_components/molecules/AccordionForAccounts.js:134:11)
+
+    console.log
+      []
+
+      at AccordionForAccounts (src/js/_components/molecules/AccordionForAccounts.js:134:11)
+
+    console.log
+      [36m<body>[39m
+        [36m<div>[39m
+          [36m<div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"MuiPaper-root MuiAccordion-root WithStyles(ForwardRef(Accordion))-root-44 MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33maria-controls[39m=[32m"panel1d-content"[39m
+                [33maria-disabled[39m=[32m"false"[39m
+                [33maria-expanded[39m=[32m"false"[39m
+                [33mclass[39m=[32m"MuiButtonBase-root MuiAccordionSummary-root WithStyles(ForwardRef(AccordionSummary))-root-46"[39m
+                [33mid[39m=[32m"panel1d-header"[39m
+                [33mrole[39m=[32m"button"[39m
+                [33mtabindex[39m=[32m"0"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"MuiAccordionSummary-content WithStyles(ForwardRef(AccordionSummary))-content-47"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"makeStyles-amountText-38"[39m
+                  [36m>[39m
+                    [36m<svg[39m
+                      [33maria-hidden[39m=[32m"true"[39m
+                      [33mclass[39m=[32m"MuiSvgIcon-root"[39m
+                      [33mfocusable[39m=[32m"false"[39m
+                      [33mviewBox[39m=[32m"0 0 24 24"[39m
+                    [36m>[39m
+                      [36m<path[39m
+                        [33md[39m=[32m"M4 10h3v7H4zM10.5 10h3v7h-3zM2 19h20v3H2zM17 10h3v7h-3zM12 1L2 6v2h20V6z"[39m
+                      [36m/>[39m
+                    [36m</svg>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"makeStyles-category-39"[39m
+                    [36m>[39m
+                      [0m Cash in Accounts[0m
+                    [36m</span>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"makeStyles-amountInHand-40"[39m
+                      [33mid[39m=[32m"amount"[39m
+                    [36m>[39m
+                      [0m10000[0m
+                    [36m</div>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"MuiCollapse-container MuiCollapse-hidden"[39m
+                [33mstyle[39m=[32m"min-height: 0px;"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"MuiCollapse-wrapper"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"MuiCollapse-wrapperInner"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33maria-labelledby[39m=[32m"panel1d-header"[39m
+                      [33mid[39m=[32m"panel1d-content"[39m
+                      [33mrole[39m=[32m"region"[39m
+                    [36m>[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"MuiAccordionDetails-root WithStyles(ForwardRef(AccordionDetails))-root-49"[39m
+                      [36m>[39m
+                        [36m<div[39m
+                          [33mclass[39m=[32m"makeStyles-amountText-38"[39m
+                        [36m>[39m
+                          [0mAxis Bank[0m
+                          [36m<div[39m
+                            [33mclass[39m=[32m"makeStyles-amountInHand-40"[39m
+                            [33mid[39m=[32m"amount"[39m
+                          [36m>[39m
+                            [0m5000[0m
+                          [36m</div>[39m
+                        [36m</div>[39m
+                      [36m</div>[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"MuiAccordionDetails-root WithStyles(ForwardRef(AccordionDetails))-root-49"[39m
+                      [36m>[39m
+                        [36m<div[39m
+                          [33mclass[39m=[32m"makeStyles-amountText-38"[39m
+                        [36m>[39m
+                          [0mHDFC [0m
+                          [36m<div[39m
+                            [33mclass[39m=[32m"makeStyles-amountInHand-40"[39m
+                            [33mid[39m=[32m"amount"[39m
+                          [36m>[39m
+                            [0m5000[0m
+                          [36m</div>[39m
+                        [36m</div>[39m
+                      [36m</div>[39m
+                    [36m</div>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"MuiPaper-root MuiAccordion-root WithStyles(ForwardRef(Accordion))-root-44 Mui-expanded WithStyles(ForwardRef(Accordion))-expanded-45 MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33maria-controls[39m=[32m"panel2d-content"[39m
+                [33maria-disabled[39m=[32m"false"[39m
+                [33maria-expanded[39m=[32m"true"[39m
+                [33mclass[39m=[32m"MuiButtonBase-root MuiAccordionSummary-root WithStyles(ForwardRef(AccordionSummary))-root-46 Mui-expanded WithStyles(ForwardRef(AccordionSummary))-expanded-48"[39m
+                [33mdata-testid[39m=[32m"AccordionSummaryBudget"[39m
+                [33mid[39m=[32m"panel2d-header"[39m
+                [33mrole[39m=[32m"button"[39m
+                [33mtabindex[39m=[32m"0"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"MuiAccordionSummary-content WithStyles(ForwardRef(AccordionSummary))-content-47 Mui-expanded WithStyles(ForwardRef(AccordionSummary))-expanded-48"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"makeStyles-amountText-38"[39m
+                  [36m>[39m
+                    [36m<svg[39m
+                      [33maria-hidden[39m=[32m"true"[39m
+                      [33mclass[39m=[32m"MuiSvgIcon-root"[39m
+                      [33mfocusable[39m=[32m"false"[39m
+                      [33mviewBox[39m=[32m"0 0 24 24"[39m
+                    [36m>[39m
+                      [36m<path[39m
+                        [33md[39m=[32m"M21 18v1c0 1.1-.9 2-2 2H5c-1.11 0-2-.9-2-2V5c0-1.1.89-2 2-2h14c1.1 0 2 .9 2 2v1h-9c-1.11 0-2 .9-2 2v8c0 1.1.89 2 2 2h9zm-9-2h10V8H12v8zm4-2.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"[39m
+                      [36m/>[39m
+                    [36m</svg>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"makeStyles-category-39"[39m
+                    [36m>[39m
+                      [0mBudget[0m
+                    [36m</span>[39m
+                    [0m [0m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"makeStyles-amount-42"[39m
+                      [33mid[39m=[32m"amount"[39m
+                    [36m>[39m
+                      [0m0[0m
+                    [36m</div>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"MuiCollapse-container"[39m
+                [33mstyle[39m=[32m"min-height: 0px; height: 0px; transition-duration: 0ms;"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"MuiCollapse-wrapper"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"MuiCollapse-wrapperInner"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33maria-labelledby[39m=[32m"panel2d-header"[39m
+                      [33mid[39m=[32m"panel2d-content"[39m
+                      [33mrole[39m=[32m"region"[39m
+                    [36m/>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"MuiPaper-root MuiAccordion-root WithStyles(ForwardRef(Accordion))-root-44 MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33maria-controls[39m=[32m"panel3d-content"[39m
+                [33maria-disabled[39m=[32m"false"[39m
+                [33maria-expanded[39m=[32m"false"[39m
+                [33mclass[39m=[32m"MuiButtonBase-root MuiAccordionSummary-root WithStyles(ForwardRef(AccordionSummary))-root-46"[39m
+                [33mdata-testid[39m=[32m"expensesBar"[39m
+                [33mid[39m=[32m"panel3d-header"[39m
+                [33mrole[39m=[32m"button"[39m
+                [33mtabindex[39m=[32m"0"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"MuiAccordionSummary-content WithStyles(ForwardRef(AccordionSummary))-content-47"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"makeStyles-amountText-38"[39m
+                  [36m>[39m
+                    [36m<svg[39m
+                      [33maria-hidden[39m=[32m"true"[39m
+                      [33mclass[39m=[32m"MuiSvgIcon-root"[39m
+                      [33mfocusable[39m=[32m"false"[39m
+                      [33mviewBox[39m=[32m"0 0 24 24"[39m
+                    [36m>[39m
+                      [36m<path[39m
+                        [33md[39m=[32m"M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"[39m
+                      [36m/>[39m
+                    [36m</svg>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"makeStyles-category-39"[39m
+                    [36m>[39m
+                      [0mExpenses[0m
+                    [36m</span>[39m
+                    [0m [0m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"makeStyles-amountSpent-41"[39m
+                      [33mid[39m=[32m"amount"[39m
+                    [36m>[39m
+                      [0m0[0m
+                    [36m</div>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"MuiCollapse-container MuiCollapse-hidden"[39m
+                [33mstyle[39m=[32m"min-height: 0px;"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"MuiCollapse-wrapper"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"MuiCollapse-wrapperInner"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33maria-labelledby[39m=[32m"panel3d-header"[39m
+                      [33mid[39m=[32m"panel3d-content"[39m
+                      [33mrole[39m=[32m"region"[39m
+                    [36m/>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"MuiPaper-root MuiAccordion-root WithStyles(ForwardRef(Accordion))-root-44 makeStyles-disabledBackground-43 Mui-disabled MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33maria-controls[39m=[32m"panel3d-content"[39m
+                [33maria-disabled[39m=[32m"true"[39m
+                [33maria-expanded[39m=[32m"false"[39m
+                [33mclass[39m=[32m"MuiButtonBase-root MuiAccordionSummary-root WithStyles(ForwardRef(AccordionSummary))-root-46 Mui-disabled Mui-disabled"[39m
+                [33mid[39m=[32m"panel3d-header"[39m
+                [33mrole[39m=[32m"button"[39m
+                [33mtabindex[39m=[32m"-1"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"MuiAccordionSummary-content WithStyles(ForwardRef(AccordionSummary))-content-47"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"makeStyles-amountText-38"[39m
+                  [36m>[39m
+                    [36m<svg[39m
+                      [33maria-hidden[39m=[32m"true"[39m
+                      [33mclass[39m=[32m"MuiSvgIcon-root"[39m
+                      [33mfocusable[39m=[32m"false"[39m
+                      [33mviewBox[39m=[32m"0 0 24 24"[39m
+                    [36m>[39m
+                      [36m<path[39m
+                        [33md[39m=[32m"M5 8h2v8H5zm7 0H9c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h3c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1zm-1 6h-1v-4h1v4zm7-6h-3c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h3c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1zm-1 6h-1v-4h1v4z"[39m
+                      [36m/>[39m
+                      [36m<path[39m
+                        [33md[39m=[32m"M2 4v16h20V4H2zm2 14V6h16v12H4z"[39m
+                      [36m/>[39m
+                    [36m</svg>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"makeStyles-category-39"[39m
+                    [36m>[39m
+                      [0mBalance amount in budget[0m
+                    [36m</span>[39m
+                    [0m [0m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"makeStyles-amount-42"[39m
+                      [33mid[39m=[32m"amount"[39m
+                    [36m>[39m
+                      [0m0[0m
+                    [36m</div>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"MuiCollapse-container MuiCollapse-hidden"[39m
+                [33mstyle[39m=[32m"min-height: 0px;"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"MuiCollapse-wrapper"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"MuiCollapse-wrapperInner"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33maria-labelledby[39m=[32m"panel3d-header"[39m
+                      [33mid[39m=[32m"panel3d-content"[39m
+                      [33mrole[39m=[32m"region"[39m
+                    [36m/>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</body>[39m
+
+      at logDOM (node_modules/@testing-library/dom/dist/pretty-dom.js:68:37)
+
+    console.log
+      clicked on overview button
+
+      at handleButtonClick (src/js/_components/atoms/AnimationModalSuccess.js:47:13)
+
+    console.log
+      overview is true
+
+      at AnimantionModalSuccess (src/js/_components/atoms/AnimationModalSuccess.js:62:13)
+
+ › 2 snapshots obsolete.
+   • Acoordion renders correctly Accordion CircularProgressForLink 1
+   • Acoordion renders correctly Accordion LinkCheckPoints 1
+PASS __tests__/js/components/_add-budget-dialog-box.test.js
+  ● Console
+
+    console.error
+      Warning: validateDOMNesting(...): <div> cannot appear as a descendant of <p>.
+          in div (created by Styled(MuiBox))
+          in Styled(MuiBox) (created by AddBudgetDialogBox)
+          in p (created by ForwardRef(Typography))
+          in ForwardRef(Typography) (created by WithStyles(ForwardRef(Typography)))
+          in WithStyles(ForwardRef(Typography)) (created by AddBudgetDialogBox)
+          in div (created by ForwardRef(Grid))
+          in ForwardRef(Grid) (created by WithStyles(ForwardRef(Grid)))
+          in WithStyles(ForwardRef(Grid)) (created by AddBudgetDialogBox)
+          in div (created by ForwardRef(Paper))
+          in ForwardRef(Paper) (created by WithStyles(ForwardRef(Paper)))
+          in WithStyles(ForwardRef(Paper)) (created by ForwardRef(Dialog))
+          in div (created by Transition)
+          in Transition (created by ForwardRef(Fade))
+          in ForwardRef(Fade) (created by Unstable_TrapFocus)
+          in Unstable_TrapFocus (created by ForwardRef(Modal))
+          in div (created by ForwardRef(Modal))
+          in ForwardRef(Portal) (created by ForwardRef(Modal))
+          in ForwardRef(Modal) (created by ForwardRef(Dialog))
+          in ForwardRef(Dialog) (created by WithStyles(ForwardRef(Dialog)))
+          in WithStyles(ForwardRef(Dialog)) (created by AddBudgetDialogBox)
+          in div (created by AddBudgetDialogBox)
+          in AddBudgetDialogBox
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at validateDOMNesting (node_modules/react-dom/cjs/react-dom.development.js:7383:7)
+      at createInstance (node_modules/react-dom/cjs/react-dom.development.js:7479:5)
+      at completeWork (node_modules/react-dom/cjs/react-dom.development.js:18970:28)
+      at completeUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22189:16)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22165:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+
+    console.error
+      Warning: Received `true` for a non-boolean attribute `shrink`.
+      
+      If you want to write it to the DOM, pass a string instead: shrink="true" or shrink={value.toString()}.
+          in input (created by ForwardRef(InputBase))
+          in div (created by ForwardRef(InputBase))
+          in ForwardRef(InputBase) (created by WithStyles(ForwardRef(InputBase)))
+          in WithStyles(ForwardRef(InputBase)) (created by ForwardRef(Input))
+          in ForwardRef(Input) (created by WithStyles(ForwardRef(Input)))
+          in WithStyles(ForwardRef(Input)) (created by ForwardRef(TextField))
+          in div (created by ForwardRef(FormControl))
+          in ForwardRef(FormControl) (created by WithStyles(ForwardRef(FormControl)))
+          in WithStyles(ForwardRef(FormControl)) (created by ForwardRef(TextField))
+          in ForwardRef(TextField) (created by WithStyles(ForwardRef(TextField)))
+          in WithStyles(ForwardRef(TextField)) (created by AddBudgetDialogBox)
+          in div (created by ForwardRef(DialogContent))
+          in ForwardRef(DialogContent) (created by WithStyles(ForwardRef(DialogContent)))
+          in WithStyles(ForwardRef(DialogContent)) (created by AddBudgetDialogBox)
+          in div (created by ForwardRef(Paper))
+          in ForwardRef(Paper) (created by WithStyles(ForwardRef(Paper)))
+          in WithStyles(ForwardRef(Paper)) (created by ForwardRef(Dialog))
+          in div (created by Transition)
+          in Transition (created by ForwardRef(Fade))
+          in ForwardRef(Fade) (created by Unstable_TrapFocus)
+          in Unstable_TrapFocus (created by ForwardRef(Modal))
+          in div (created by ForwardRef(Modal))
+          in ForwardRef(Portal) (created by ForwardRef(Modal))
+          in ForwardRef(Modal) (created by ForwardRef(Dialog))
+          in ForwardRef(Dialog) (created by WithStyles(ForwardRef(Dialog)))
+          in WithStyles(ForwardRef(Dialog)) (created by AddBudgetDialogBox)
+          in div (created by AddBudgetDialogBox)
+          in AddBudgetDialogBox
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at validateProperty$1 (node_modules/react-dom/cjs/react-dom.development.js:5557:9)
+      at warnUnknownProperties (node_modules/react-dom/cjs/react-dom.development.js:5595:21)
+      at validateProperties$2 (node_modules/react-dom/cjs/react-dom.development.js:5619:3)
+      at validatePropertiesInDevelopment (node_modules/react-dom/cjs/react-dom.development.js:5662:5)
+      at setInitialProperties (node_modules/react-dom/cjs/react-dom.development.js:5941:5)
+      at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:7499:3)
+
+PASS __tests__/js/components/_left-navbar.test.js (5.157 s)
+  ● Console
+
+    console.error
+      Warning: Failed prop type: Invalid prop `variant` of value `contained` supplied to `ForwardRef(Avatar)`, expected one of ["circle","rounded","square"].
+          in ForwardRef(Avatar) (created by WithStyles(ForwardRef(Avatar)))
+          in WithStyles(ForwardRef(Avatar)) (created by MenuList)
+          in div (created by MenuList)
+          in MenuList (created by Context.Consumer)
+          in withRouter(MenuList) (created by AvatarDropdown)
+          in div (created by ForwardRef(Avatar))
+          in ForwardRef(Avatar) (created by WithStyles(ForwardRef(Avatar)))
+          in WithStyles(ForwardRef(Avatar)) (created by AvatarDropdown)
+          in AvatarDropdown (created by HeaderIcons)
+          in span (created by ForwardRef(IconButton))
+          in button (created by ForwardRef(ButtonBase))
+          in ForwardRef(ButtonBase) (created by WithStyles(ForwardRef(ButtonBase)))
+          in WithStyles(ForwardRef(ButtonBase)) (created by ForwardRef(IconButton))
+          in ForwardRef(IconButton) (created by WithStyles(ForwardRef(IconButton)))
+          in WithStyles(ForwardRef(IconButton)) (created by HeaderIcons)
+          in div (created by HeaderIcons)
+          in HeaderIcons (created by HomePageHeader)
+          in div (created by ForwardRef(Toolbar))
+          in ForwardRef(Toolbar) (created by WithStyles(ForwardRef(Toolbar)))
+          in WithStyles(ForwardRef(Toolbar)) (created by HomePageHeader)
+          in header (created by ForwardRef(Paper))
+          in ForwardRef(Paper) (created by WithStyles(ForwardRef(Paper)))
+          in WithStyles(ForwardRef(Paper)) (created by ForwardRef(AppBar))
+          in ForwardRef(AppBar) (created by WithStyles(ForwardRef(AppBar)))
+          in WithStyles(ForwardRef(AppBar)) (created by HomePageHeader)
+          in div (created by HomePageHeader)
+          in HomePageHeader (created by LeftNavBar)
+          in div (created by LeftNavBar)
+          in LeftNavBar
+          in Router (created by BrowserRouter)
+          in BrowserRouter
+
+      at printWarning (node_modules/prop-types/checkPropTypes.js:20:15)
+      at checkPropTypes (node_modules/prop-types/checkPropTypes.js:82:11)
+      at validatePropTypes (node_modules/react/cjs/react.development.js:1714:7)
+      at Object.createElementWithValidation [as createElement] (node_modules/react/cjs/react.development.js:1813:5)
+      at WithStyles (node_modules/@material-ui/styles/withStyles/withStyles.js:97:42)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+      at updateForwardRef (node_modules/react-dom/cjs/react-dom.development.js:16816:20)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:18645:16)
+
+PASS __tests__/js/components/App.test.js
+  ● Console
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.error
+      Warning: React does not recognize the `data-testId` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `data-testid` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+          in button (created by ForwardRef(ButtonBase))
+          in ForwardRef(ButtonBase) (created by WithStyles(ForwardRef(ButtonBase)))
+          in WithStyles(ForwardRef(ButtonBase)) (created by ForwardRef(Button))
+          in ForwardRef(Button) (created by WithStyles(ForwardRef(Button)))
+          in WithStyles(ForwardRef(Button)) (created by FormForSignup)
+          in a (created by LinkAnchor)
+          in LinkAnchor (created by Context.Consumer)
+          in Link (created by FormForSignup)
+          in div (created by FormForSignup)
+          in form (created by FormForSignup)
+          in div (created by FormForSignup)
+          in FormForSignup (created by FormLayout)
+          in div (created by ForwardRef(Typography))
+          in ForwardRef(Typography) (created by WithStyles(ForwardRef(Typography)))
+          in WithStyles(ForwardRef(Typography)) (created by FormLayout)
+          in div (created by ForwardRef(Container))
+          in ForwardRef(Container) (created by WithStyles(ForwardRef(Container)))
+          in WithStyles(ForwardRef(Container)) (created by FormLayout)
+          in div (created by FormLayout)
+          in FormLayout (created by Context.Consumer)
+          in Route (created by Routes)
+          in Routes (created by App)
+          in Router (created by BrowserRouter)
+          in BrowserRouter (created by App)
+          in App
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at validateProperty$1 (node_modules/react-dom/cjs/react-dom.development.js:5549:7)
+      at warnUnknownProperties (node_modules/react-dom/cjs/react-dom.development.js:5595:21)
+      at validateProperties$2 (node_modules/react-dom/cjs/react-dom.development.js:5619:3)
+      at validatePropertiesInDevelopment (node_modules/react-dom/cjs/react-dom.development.js:5662:5)
+      at setInitialProperties (node_modules/react-dom/cjs/react-dom.development.js:5941:5)
+      at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:7499:3)
+
+PASS __tests__/js/components/_select-list.test.js
+  ● Console
+
+    console.error
+      Warning: Each child in a list should have a unique "key" prop.
+      
+      Check the top-level render call using <WithStyles(ForwardRef(Select))>. See https://fb.me/react-warning-keys for more information.
+          in WithStyles(ForwardRef(MenuItem))
+
+      56 |         <FormControl variant="outlined" className={ styleClass === 'category' ? classes.category:classes.year } style = { inputLabel === "Frequency" ? {marginTop:'-10px'}:{}}  error = { errorMsg.length > 0 ? true : false}>
+      57 |         <InputLabel id="demo-simple-select-outlined-label">{inputLabel}</InputLabel>
+    > 58 |         <Select
+         |         ^
+      59 |           labelId="demo-simple-select-outlined-label"
+      60 |           id="demo-simple-select-outlined"
+      61 |           data-testid="select"
+
+      at printWarning (node_modules/react/cjs/react.development.js:315:30)
+      at error (node_modules/react/cjs/react.development.js:287:5)
+      at validateExplicitKey (node_modules/react/cjs/react.development.js:1630:5)
+      at validateChildKeys (node_modules/react/cjs/react.development.js:1656:9)
+      at Object.createElementWithValidation [as createElement] (node_modules/react/cjs/react.development.js:1806:7)
+      at SelectList (src/js/_components/molecules/_select-list.js:58:9)
+      at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:829:32)
+      at node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:645:55
+
+    console.error
+      Warning: Each child in a list should have a unique "key" prop.
+      
+      Check the render method of `SelectList`. See https://fb.me/react-warning-keys for more information.
+          in WithStyles(ForwardRef(MenuItem)) (created by SelectList)
+          in SelectList
+
+      56 |         <FormControl variant="outlined" className={ styleClass === 'category' ? classes.category:classes.year } style = { inputLabel === "Frequency" ? {marginTop:'-10px'}:{}}  error = { errorMsg.length > 0 ? true : false}>
+      57 |         <InputLabel id="demo-simple-select-outlined-label">{inputLabel}</InputLabel>
+    > 58 |         <Select
+         |         ^
+      59 |           labelId="demo-simple-select-outlined-label"
+      60 |           id="demo-simple-select-outlined"
+      61 |           data-testid="select"
+
+      at printWarning (node_modules/react/cjs/react.development.js:315:30)
+      at error (node_modules/react/cjs/react.development.js:287:5)
+      at validateExplicitKey (node_modules/react/cjs/react.development.js:1630:5)
+      at validateChildKeys (node_modules/react/cjs/react.development.js:1656:9)
+      at Object.createElementWithValidation [as createElement] (node_modules/react/cjs/react.development.js:1806:7)
+      at SelectList (src/js/_components/molecules/_select-list.js:58:9)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+
+    console.error
+      Warning: Failed prop type: Invalid prop `className` of type `object` supplied to `ForwardRef(FormHelperText)`, expected `string`.
+          in ForwardRef(FormHelperText) (created by WithStyles(ForwardRef(FormHelperText)))
+          in WithStyles(ForwardRef(FormHelperText)) (created by SelectList)
+          in div (created by ForwardRef(FormControl))
+          in ForwardRef(FormControl) (created by WithStyles(ForwardRef(FormControl)))
+          in WithStyles(ForwardRef(FormControl)) (created by SelectList)
+          in div (created by SelectList)
+          in SelectList
+
+      at printWarning (node_modules/prop-types/checkPropTypes.js:20:15)
+      at checkPropTypes (node_modules/prop-types/checkPropTypes.js:82:11)
+      at validatePropTypes (node_modules/react/cjs/react.development.js:1714:7)
+      at Object.createElementWithValidation [as createElement] (node_modules/react/cjs/react.development.js:1813:5)
+      at WithStyles (node_modules/@material-ui/styles/withStyles/withStyles.js:97:42)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+      at updateForwardRef (node_modules/react-dom/cjs/react-dom.development.js:16816:20)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:18645:16)
+
+    console.warn
+      Material-UI: You have provided an out-of-range value `undefined` for the select component.
+      Consider providing a value that matches one of the available options or ''.
+      The available values are `April`, `May`, `June`.
+
+      at node_modules/@material-ui/core/Select/SelectInput.js:366:17
+      at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:19731:26)
+      at commitPassiveHookEffects (node_modules/react-dom/cjs/react-dom.development.js:19769:11)
+      at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:188:14)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+      at HTMLUnknownElementImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+      at HTMLUnknownElementImpl.dispatchEvent (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+
+    console.warn
+      Material-UI: You have provided an out-of-range value `undefined` for the select component.
+      Consider providing a value that matches one of the available options or ''.
+      The available values are `April`, `May`, `June`.
+
+      at node_modules/@material-ui/core/Select/SelectInput.js:366:17
+      at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:19731:26)
+      at commitPassiveHookEffects (node_modules/react-dom/cjs/react-dom.development.js:19769:11)
+      at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:188:14)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+      at HTMLUnknownElementImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+      at HTMLUnknownElementImpl.dispatchEvent (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+
+    console.warn
+      Material-UI: You have provided an out-of-range value `undefined` for the select component.
+      Consider providing a value that matches one of the available options or ''.
+      The available values are `April`, `May`, `June`.
+
+      at node_modules/@material-ui/core/Select/SelectInput.js:366:17
+      at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:19731:26)
+      at commitPassiveHookEffects (node_modules/react-dom/cjs/react-dom.development.js:19769:11)
+      at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:188:14)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+      at HTMLUnknownElementImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+      at HTMLUnknownElementImpl.dispatchEvent (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+
+    console.error
+      Warning: A component is changing an uncontrolled input of type undefined to be controlled. Input elements should not switch from uncontrolled to controlled (or vice versa). Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://fb.me/react-controlled-components
+          in input (created by ForwardRef(SelectInput))
+          in ForwardRef(SelectInput) (created by ForwardRef(InputBase))
+          in div (created by ForwardRef(InputBase))
+          in ForwardRef(InputBase) (created by WithStyles(ForwardRef(InputBase)))
+          in WithStyles(ForwardRef(InputBase)) (created by ForwardRef(OutlinedInput))
+          in ForwardRef(OutlinedInput) (created by WithStyles(ForwardRef(OutlinedInput)))
+          in WithStyles(ForwardRef(OutlinedInput)) (created by ForwardRef(Select))
+          in ForwardRef(Select) (created by WithStyles(ForwardRef(Select)))
+          in WithStyles(ForwardRef(Select)) (created by SelectList)
+          in div (created by ForwardRef(FormControl))
+          in ForwardRef(FormControl) (created by WithStyles(ForwardRef(FormControl)))
+          in WithStyles(ForwardRef(FormControl)) (created by SelectList)
+          in div (created by SelectList)
+          in SelectList
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at updateWrapper (node_modules/react-dom/cjs/react-dom.development.js:1870:7)
+      at updateProperties (node_modules/react-dom/cjs/react-dom.development.js:6260:7)
+      at commitUpdate (node_modules/react-dom/cjs/react-dom.development.js:7553:3)
+      at commitWork (node_modules/react-dom/cjs/react-dom.development.js:20546:13)
+      at commitMutationEffects (node_modules/react-dom/cjs/react-dom.development.js:22776:11)
+      at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:188:14)
+
+    console.warn
+      Material-UI: You have provided an out-of-range value `undefined` for the select component.
+      Consider providing a value that matches one of the available options or ''.
+      The available values are `2019`, `2020`, `2021`.
+
+      at node_modules/@material-ui/core/Select/SelectInput.js:366:17
+      at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:19731:26)
+      at commitPassiveHookEffects (node_modules/react-dom/cjs/react-dom.development.js:19769:11)
+      at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:188:14)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+      at HTMLUnknownElementImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+      at HTMLUnknownElementImpl.dispatchEvent (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+
+    console.warn
+      Material-UI: You have provided an out-of-range value `undefined` for the select component.
+      Consider providing a value that matches one of the available options or ''.
+      The available values are `2019`, `2020`, `2021`.
+
+      at node_modules/@material-ui/core/Select/SelectInput.js:366:17
+      at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:19731:26)
+      at commitPassiveHookEffects (node_modules/react-dom/cjs/react-dom.development.js:19769:11)
+      at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:188:14)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+      at HTMLUnknownElementImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+      at HTMLUnknownElementImpl.dispatchEvent (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+
+    console.warn
+      Material-UI: You have provided an out-of-range value `undefined` for the select component.
+      Consider providing a value that matches one of the available options or ''.
+      The available values are `2019`, `2020`, `2021`.
+
+      at node_modules/@material-ui/core/Select/SelectInput.js:366:17
+      at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom.development.js:19731:26)
+      at commitPassiveHookEffects (node_modules/react-dom/cjs/react-dom.development.js:19769:11)
+      at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:188:14)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+      at HTMLUnknownElementImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+      at HTMLUnknownElementImpl.dispatchEvent (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+
+PASS __tests__/js/components/SearchBar.test.js
+  ● Console
+
+    console.error
+      Warning: React does not recognize the `data-testId` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `data-testid` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+          in div (created by ForwardRef(Autocomplete))
+          in ForwardRef(Autocomplete) (created by WithStyles(ForwardRef(Autocomplete)))
+          in WithStyles(ForwardRef(Autocomplete)) (created by SearchBar)
+          in div (created by SearchBar)
+          in SearchBar
+          in Router (created by BrowserRouter)
+          in BrowserRouter
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at validateProperty$1 (node_modules/react-dom/cjs/react-dom.development.js:5549:7)
+      at warnUnknownProperties (node_modules/react-dom/cjs/react-dom.development.js:5595:21)
+      at validateProperties$2 (node_modules/react-dom/cjs/react-dom.development.js:5619:3)
+      at validatePropertiesInDevelopment (node_modules/react-dom/cjs/react-dom.development.js:5662:5)
+      at setInitialProperties (node_modules/react-dom/cjs/react-dom.development.js:5941:5)
+      at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:7499:3)
+
+    console.log
+      handling
+
+      at handleChange (src/js/_components/atoms/SearchBar.js:35:13)
+
+    console.log
+      Andhra Bank
+
+      at handleChange (src/js/_components/atoms/SearchBar.js:36:13)
+
+    console.log
+      {
+        name: 'Andhra Bank',
+        placeHolder: 'Enter Andhra Bank Id',
+        redirectStatus: false
+      }
+
+      at handleChange (src/js/_components/atoms/SearchBar.js:38:13)
+
+    console.log
+      true
+
+      at SearchBar (src/js/_components/atoms/SearchBar.js:46:13)
+
+    console.log
+      handling
+
+      at handleChange (src/js/_components/atoms/SearchBar.js:35:13)
+
+    console.log
+      Axis Bank
+
+      at handleChange (src/js/_components/atoms/SearchBar.js:36:13)
+
+    console.log
+      {
+        name: 'Axis Bank',
+        placeHolder: 'Enter Axis Bank Id',
+        redirectStatus: true,
+        url: 'https://retail.axisbank.co.in/wps/portal/rBanking/axisebanking/AxisRetailLogin/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKNAzxMjIwNjLwsQp0MDBw9PUOd3HwdDQwMjIEKIoEKDHAARwNC-sP1o_ArMYIqwGNFQW6EQaajoiIAVNL82A!!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/?_ga=2.84227098.2090745026.1593530742-162983518.1593530742'
+      }
+
+      at handleChange (src/js/_components/atoms/SearchBar.js:38:13)
+
+PASS __tests__/js/components/LoginPage.test.js
+  ● Console
+
+    console.error
+      Warning: React does not recognize the `data-testId` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `data-testid` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+          in button (created by ForwardRef(ButtonBase))
+          in ForwardRef(ButtonBase) (created by WithStyles(ForwardRef(ButtonBase)))
+          in WithStyles(ForwardRef(ButtonBase)) (created by ForwardRef(Button))
+          in ForwardRef(Button) (created by WithStyles(ForwardRef(Button)))
+          in WithStyles(ForwardRef(Button)) (created by LoginPage)
+          in form (created by LoginPage)
+          in div (created by LoginPage)
+          in main (created by ForwardRef(Container))
+          in ForwardRef(Container) (created by WithStyles(ForwardRef(Container)))
+          in WithStyles(ForwardRef(Container)) (created by LoginPage)
+          in div (created by LoginPage)
+          in LoginPage
+          in Router (created by BrowserRouter)
+          in BrowserRouter
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at validateProperty$1 (node_modules/react-dom/cjs/react-dom.development.js:5549:7)
+      at warnUnknownProperties (node_modules/react-dom/cjs/react-dom.development.js:5595:21)
+      at validateProperties$2 (node_modules/react-dom/cjs/react-dom.development.js:5619:3)
+      at validatePropertiesInDevelopment (node_modules/react-dom/cjs/react-dom.development.js:5662:5)
+      at setInitialProperties (node_modules/react-dom/cjs/react-dom.development.js:5941:5)
+      at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:7499:3)
+
+    console.log
+      email is kaushik@gmail.com password is kaushik
+
+      at handleSubmit (src/js/_components/organisms/LoginPage.js:51:17)
+
+    console.log
+      true
+
+      at LoginPage (src/js/_components/organisms/LoginPage.js:62:15)
+
+    console.error
+      Error: Not implemented: window.alert
+          at module.exports (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+          at alert (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/Window.js:714:7)
+          at handleSubmit (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/organisms/LoginPage.js:56:9)
+          at HTMLUnknownElement.callCallback (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLUnknownElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLUnknownElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLUnknownElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34)
+          at Object.invokeGuardedCallbackDev (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:237:16) undefined
+
+      54 |     }
+      55 |       else
+    > 56 |         alert("Invalid login details");
+         |         ^
+      57 |       
+      58 |     }
+      59 | 
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
+      at alert (node_modules/jsdom/lib/jsdom/browser/Window.js:714:7)
+      at handleSubmit (src/js/_components/organisms/LoginPage.js:56:9)
+      at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:188:14)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+
+    console.error
+      Error: Not implemented: window.alert
+          at module.exports (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+          at alert (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/Window.js:714:7)
+          at handleSubmit (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/organisms/LoginPage.js:56:9)
+          at HTMLUnknownElement.callCallback (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLUnknownElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLUnknownElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLUnknownElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34)
+          at Object.invokeGuardedCallbackDev (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:237:16) undefined
+
+      54 |     }
+      55 |       else
+    > 56 |         alert("Invalid login details");
+         |         ^
+      57 |       
+      58 |     }
+      59 | 
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
+      at alert (node_modules/jsdom/lib/jsdom/browser/Window.js:714:7)
+      at handleSubmit (src/js/_components/organisms/LoginPage.js:56:9)
+      at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:188:14)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+
+    console.error
+      Error: Not implemented: window.alert
+          at module.exports (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+          at alert (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/Window.js:714:7)
+          at handleSubmit (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/organisms/LoginPage.js:56:9)
+          at HTMLUnknownElement.callCallback (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLUnknownElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLUnknownElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLUnknownElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34)
+          at Object.invokeGuardedCallbackDev (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:237:16) undefined
+
+      54 |     }
+      55 |       else
+    > 56 |         alert("Invalid login details");
+         |         ^
+      57 |       
+      58 |     }
+      59 | 
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
+      at alert (node_modules/jsdom/lib/jsdom/browser/Window.js:714:7)
+      at handleSubmit (src/js/_components/organisms/LoginPage.js:56:9)
+      at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:188:14)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+
+    console.error
+      Error: Not implemented: window.alert
+          at module.exports (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+          at alert (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/Window.js:714:7)
+          at handleSubmit (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/organisms/LoginPage.js:56:9)
+          at HTMLUnknownElement.callCallback (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLUnknownElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLUnknownElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLUnknownElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34)
+          at Object.invokeGuardedCallbackDev (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:237:16) undefined
+
+      54 |     }
+      55 |       else
+    > 56 |         alert("Invalid login details");
+         |         ^
+      57 |       
+      58 |     }
+      59 | 
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
+      at alert (node_modules/jsdom/lib/jsdom/browser/Window.js:714:7)
+      at handleSubmit (src/js/_components/organisms/LoginPage.js:56:9)
+      at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:188:14)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+
+PASS __tests__/js/components/Routes.test.js
+PASS __tests__/js/components/_list-menu-items.test.js
+PASS __tests__/js/components/_signup-page.test.js (6.734 s)
+  ● Console
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.error
+      Warning: React does not recognize the `data-testId` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `data-testid` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+          in button (created by ForwardRef(ButtonBase))
+          in ForwardRef(ButtonBase) (created by WithStyles(ForwardRef(ButtonBase)))
+          in WithStyles(ForwardRef(ButtonBase)) (created by ForwardRef(Button))
+          in ForwardRef(Button) (created by WithStyles(ForwardRef(Button)))
+          in WithStyles(ForwardRef(Button)) (created by FormForSignup)
+          in a (created by LinkAnchor)
+          in LinkAnchor (created by Context.Consumer)
+          in Link (created by FormForSignup)
+          in div (created by FormForSignup)
+          in form (created by FormForSignup)
+          in div (created by FormForSignup)
+          in FormForSignup (created by FormLayout)
+          in div (created by ForwardRef(Typography))
+          in ForwardRef(Typography) (created by WithStyles(ForwardRef(Typography)))
+          in WithStyles(ForwardRef(Typography)) (created by FormLayout)
+          in div (created by ForwardRef(Container))
+          in ForwardRef(Container) (created by WithStyles(ForwardRef(Container)))
+          in WithStyles(ForwardRef(Container)) (created by FormLayout)
+          in div (created by FormLayout)
+          in FormLayout (created by Context.Consumer)
+          in Route (created by Routes)
+          in Routes (created by App)
+          in Router (created by BrowserRouter)
+          in BrowserRouter (created by App)
+          in App
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at validateProperty$1 (node_modules/react-dom/cjs/react-dom.development.js:5549:7)
+      at warnUnknownProperties (node_modules/react-dom/cjs/react-dom.development.js:5595:21)
+      at validateProperties$2 (node_modules/react-dom/cjs/react-dom.development.js:5619:3)
+      at validatePropertiesInDevelopment (node_modules/react-dom/cjs/react-dom.development.js:5662:5)
+      at setInitialProperties (node_modules/react-dom/cjs/react-dom.development.js:5941:5)
+      at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:7499:3)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      props state text field undefined
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state undefined
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      false
+
+      at validateEmailId (src/js/_components/atoms/TextFields.js:27:17)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      false
+
+      at validateEmailId (src/js/_components/atoms/TextFields.js:27:17)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      [36m<body>[39m
+        [36m<div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"signup-form"[39m
+            [33mid[39m=[32m"FormForSignup"[39m
+          [36m>[39m
+            [36m<form[39m
+              [33mdata-testid[39m=[32m"formSubmit"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"form-input-field"[39m
+                [33mstyle[39m=[32m"margin-top: 20px;"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"[39m
+                [36m>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined Mui-required Mui-required"[39m
+                    [33mdata-shrink[39m=[32m"false"[39m
+                    [33mfor[39m=[32m"standard-required-emailId"[39m
+                    [33mid[39m=[32m"standard-required-emailId-label"[39m
+                  [36m>[39m
+                    [0mEmail Address[0m
+                    [36m<span[39m
+                      [33maria-hidden[39m=[32m"true"[39m
+                      [33mclass[39m=[32m"MuiFormLabel-asterisk MuiInputLabel-asterisk"[39m
+                    [36m>[39m
+                      [0m [0m
+                      [0m*[0m
+                    [36m</span>[39m
+                  [36m</label>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"[39m
+                  [36m>[39m
+                    [36m<input[39m
+                      [33maria-invalid[39m=[32m"false"[39m
+                      [33mclass[39m=[32m"MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"[39m
+                      [33mdata-testid[39m=[32m"textField"[39m
+                      [33mid[39m=[32m"standard-required-emailId"[39m
+                      [33mrequired[39m=[32m""[39m
+                      [33mtype[39m=[32m"text"[39m
+                      [33mvalue[39m=[32m""[39m
+                    [36m/>[39m
+                    [36m<fieldset[39m
+                      [33maria-hidden[39m=[32m"true"[39m
+                      [33mclass[39m=[32m"PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"[39m
+                    [36m>[39m
+                      [36m<legend[39m
+                        [33mclass[39m=[32m"PrivateNotchedOutline-legendLabelled-3"[39m
+                      [36m>[39m
+                        [36m<span>[39m
+                          [0mEmail Address[0m
+                          [0m *[0m
+                        [36m</span>[39m
+                      [36m</legend>[39m
+                    [36m</fieldset>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"CheckValidity"[39m
+                [33mid[39m=[32m"check-validity"[39m
+              [36m>[39m
+                [36m<p[39m
+                  [33mclass[39m=[32m"validity-text length"[39m
+                [36m>[39m
+                  [0mEnter a Valid [0m
+                  [0mEmailId[0m
+                [36m</p>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"password-input-field"[39m
+                [33mstyle[39m=[32m"margin-top: 20px;"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"[39m
+                [36m>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"MuiFormLabel-root MuiFormLabel-colorSecondary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined Mui-required Mui-required"[39m
+                    [33mdata-shrink[39m=[32m"false"[39m
+                    [33mfor[39m=[32m"primary-password-filled-secondary"[39m
+                    [33mid[39m=[32m"primary-password-filled-secondary-label"[39m
+                  [36m>[39m
+                    [0mPassword[0m
+                    [36m<span[39m
+                      [33maria-hidden[39m=[32m"true"[39m
+                      [33mclass[39m=[32m"MuiFormLabel-asterisk MuiInputLabel-asterisk"[39m
+                    [36m>[39m
+                      [0m [0m
+                      [0m*[0m
+                    [36m</span>[39m
+                  [36m</label>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"[39m
+                  [36m>[39m
+                    [36m<input[39m
+                      [33maria-invalid[39m=[32m"false"[39m
+                      [33mclass[39m=[32m"MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"[39m
+                      [33mdata-testid[39m=[32m"passwordField"[39m
+                      [33mid[39m=[32m"primary-password-filled-secondary"[39m
+                      [33mrequired[39m=[32m""[39m
+                      [33mtype[39m=[32m"password"[39m
+                      [33mvalue[39m=[32m""[39m
+                    [36m/>[39m
+                    [36m<fieldset[39m
+                      [33maria-hidden[39m=[32m"true"[39m
+                      [33mclass[39m=[32m"PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"[39m
+                    [36m>[39m
+                      [36m<legend[39m
+                        [33mclass[39m=[32m"PrivateNotchedOutline-legendLabelled-3"[39m
+                      [36m>[39m
+                        [36m<span>[39m
+                          [0mPassword[0m
+                          [0m *[0m
+                        [36m</span>[39m
+                      [36m</legend>[39m
+                    [36m</fieldset>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"passwordValidity"[39m
+                  [33mid[39m=[32m"passwordValidityId"[39m
+                [36m>[39m
+                  [36m<p[39m
+                    [33mclass[39m=[32m"validity-text"[39m
+                  [36m>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"validity-text cross"[39m
+                      [33mid[39m=[32m"cross"[39m
+                    [36m>[39m
+                      [36m<svg[39m
+                        [33maria-hidden[39m=[32m"true"[39m
+                        [33mclass[39m=[32m"MuiSvgIcon-root"[39m
+                        [33mfocusable[39m=[32m"false"[39m
+                        [33mviewBox[39m=[32m"0 0 24 24"[39m
+                      [36m>[39m
+                        [36m<path[39m
+                          [33md[39m=[32m"M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"[39m
+                        [36m/>[39m
+                      [36m</svg>[39m
+                    [36m</span>[39m
+                    [0mUse 8 or more characters[0m
+                  [36m</p>[39m
+                  [36m<p[39m
+                    [33mclass[39m=[32m"validity-text valid"[39m
+                  [36m>[39m
+                    [36m<span[39m
+        ...
+
+      at logDOM (node_modules/@testing-library/dom/dist/pretty-dom.js:68:37)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      com
+
+      at ConfirmPassword (src/js/_components/atoms/ConfirmPassword.js:17:17)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      length not checked
+
+      at handleChange (src/js/_components/atoms/TextPasswordField.js:52:21)
+
+    console.log
+      Cases not checked
+
+      at handleChange (src/js/_components/atoms/TextPasswordField.js:70:21)
+
+    console.log
+      number not checked
+
+      at handleChange (src/js/_components/atoms/TextPasswordField.js:89:21)
+
+    console.log
+      -4
+
+      at handleChange (src/js/_components/atoms/TextPasswordField.js:115:17)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      length checked
+
+      at handleChange (src/js/_components/atoms/TextPasswordField.js:45:21)
+
+    console.log
+      Cases checked
+
+      at handleChange (src/js/_components/atoms/TextPasswordField.js:61:21)
+
+    console.log
+      number checked
+
+      at handleChange (src/js/_components/atoms/TextPasswordField.js:80:21)
+
+    console.log
+      4
+
+      at handleChange (src/js/_components/atoms/TextPasswordField.js:115:17)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      Theracer2!
+
+      at ConfirmPassword (src/js/_components/atoms/ConfirmPassword.js:17:17)
+
+    console.log
+      state set to undefined
+
+      at ConfirmPassword (src/js/_components/atoms/ConfirmPassword.js:24:21)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      Theracer2!
+
+      at ConfirmPassword (src/js/_components/atoms/ConfirmPassword.js:17:17)
+
+    console.log
+      state set to undefined
+
+      at ConfirmPassword (src/js/_components/atoms/ConfirmPassword.js:24:21)
+
+    console.log
+      true       false        true
+
+      at FormForSignup.handleSubmit (src/js/_components/atoms/FormForSignup.js:30:21)
+
+    console.error
+      Error: Not implemented: window.alert
+          at module.exports (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+          at alert (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/Window.js:714:7)
+          at FormForSignup.handleSubmit (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/atoms/FormForSignup.js:31:13)
+          at onSubmit (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/atoms/FormForSignup.js:73:69)
+          at HTMLUnknownElement.callCallback (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLUnknownElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLUnknownElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLUnknownElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34) undefined
+
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
+      at node_modules/jsdom/lib/jsdom/browser/Window.js:714:7
+
+    console.log
+      true       false        true
+
+      at FormForSignup.handleSubmit (src/js/_components/atoms/FormForSignup.js:30:21)
+
+    console.error
+      Error: Not implemented: window.alert
+          at module.exports (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+          at alert (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/Window.js:714:7)
+          at FormForSignup.handleSubmit (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/atoms/FormForSignup.js:31:13)
+          at onClick (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/atoms/FormForSignup.js:80:82)
+          at HTMLUnknownElement.callCallback (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLUnknownElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLUnknownElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLUnknownElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34) undefined
+
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
+      at node_modules/jsdom/lib/jsdom/browser/Window.js:714:7
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      false
+
+      at validateEmailId (src/js/_components/atoms/TextFields.js:27:17)
+
+    console.log
+      props state text field [object Object]
+
+      at TextFields (src/js/_components/atoms/TextFields.js:10:13)
+
+    console.log
+      EmailId
+
+      at TextFields (src/js/_components/atoms/TextFields.js:40:13)
+
+    console.log
+      length checked
+
+      at handleChange (src/js/_components/atoms/TextPasswordField.js:45:21)
+
+    console.log
+      Cases checked
+
+      at handleChange (src/js/_components/atoms/TextPasswordField.js:61:21)
+
+    console.log
+      number checked
+
+      at handleChange (src/js/_components/atoms/TextPasswordField.js:80:21)
+
+    console.log
+      4
+
+      at handleChange (src/js/_components/atoms/TextPasswordField.js:115:17)
+
+    console.log
+      props state [object Object]
+
+      at TextPasswordField (src/js/_components/atoms/TextPasswordField.js:35:13)
+
+    console.log
+      false       true        false
+
+      at FormForSignup.handleSubmit (src/js/_components/atoms/FormForSignup.js:30:21)
+
+    console.error
+      Error: Not implemented: window.alert
+          at module.exports (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+          at alert (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/Window.js:714:7)
+          at FormForSignup.handleSubmit (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/atoms/FormForSignup.js:31:13)
+          at onSubmit (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/atoms/FormForSignup.js:73:69)
+          at HTMLUnknownElement.callCallback (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLUnknownElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLUnknownElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLUnknownElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34) undefined
+
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
+      at node_modules/jsdom/lib/jsdom/browser/Window.js:714:7
+
+    console.log
+      false       true        false
+
+      at FormForSignup.handleSubmit (src/js/_components/atoms/FormForSignup.js:30:21)
+
+    console.error
+      Error: Not implemented: window.alert
+          at module.exports (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+          at alert (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/Window.js:714:7)
+          at FormForSignup.handleSubmit (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/atoms/FormForSignup.js:31:13)
+          at onClick (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/atoms/FormForSignup.js:80:82)
+          at HTMLUnknownElement.callCallback (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLUnknownElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLUnknownElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLUnknownElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34) undefined
+
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at BufferedConsole.console.error (node_modules/@testing-library/react/dist/act-compat.js:52:34)
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
+      at node_modules/jsdom/lib/jsdom/browser/Window.js:714:7
+
+PASS __tests__/js/components/SettingsPage.test.js
+PASS __tests__/js/components/BankPageRedirect.test.js
+  ● Console
+
+    console.error
+      Warning: React does not recognize the `data-testId` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `data-testid` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
+          in button (created by ForwardRef(ButtonBase))
+          in ForwardRef(ButtonBase) (created by WithStyles(ForwardRef(ButtonBase)))
+          in WithStyles(ForwardRef(ButtonBase)) (created by ForwardRef(Button))
+          in ForwardRef(Button) (created by WithStyles(ForwardRef(Button)))
+          in WithStyles(ForwardRef(Button)) (created by BankPageRedirect)
+          in div (created by BankPageRedirect)
+          in div (created by BankPageRedirect)
+          in div (created by BankPageRedirect)
+          in BankPageRedirect
+          in Router (created by BrowserRouter)
+          in BrowserRouter
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at validateProperty$1 (node_modules/react-dom/cjs/react-dom.development.js:5549:7)
+      at warnUnknownProperties (node_modules/react-dom/cjs/react-dom.development.js:5595:21)
+      at validateProperties$2 (node_modules/react-dom/cjs/react-dom.development.js:5619:3)
+      at validatePropertiesInDevelopment (node_modules/react-dom/cjs/react-dom.development.js:5662:5)
+      at setInitialProperties (node_modules/react-dom/cjs/react-dom.development.js:5941:5)
+      at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:7499:3)
+
+    console.error
+      Error: Not implemented: window.open
+          at module.exports (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)
+          at open (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/browser/Window.js:714:7)
+          at handleClick (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/molecules/BankPageRedirect.js:14:32)
+          at HTMLUnknownElement.callCallback (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLUnknownElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLUnknownElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLUnknownElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34)
+          at Object.invokeGuardedCallbackDev (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:237:16) undefined
+
+      12 | 
+      13 |     const handleClick = () =>{
+    > 14 |        const myWindow = window.open(url, '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes',false)
+         |                                ^
+      15 |   
+      16 |        myWindow.addEventListener('unload',function(e){
+      17 |            e.preventDefault();
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at module.exports (node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)
+      at open (node_modules/jsdom/lib/jsdom/browser/Window.js:714:7)
+      at handleClick (src/js/_components/molecules/BankPageRedirect.js:14:32)
+      at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:188:14)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+
+    console.error
+      Error: Uncaught [TypeError: Cannot read property 'addEventListener' of undefined]
+          at reportException (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:62:24)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:346:9)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLUnknownElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLUnknownElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLUnknownElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34)
+          at Object.invokeGuardedCallbackDev (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+          at invokeGuardedCallback (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+          at invokeGuardedCallbackAndCatchFirstError (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:306:25)
+          at executeDispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:389:3) TypeError: Cannot read property 'addEventListener' of undefined
+          at handleClick (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/molecules/BankPageRedirect.js:16:17)
+          at HTMLUnknownElement.callCallback (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLUnknownElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLUnknownElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLUnknownElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34)
+          at Object.invokeGuardedCallbackDev (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+          at invokeGuardedCallback (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+          at invokeGuardedCallbackAndCatchFirstError (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:306:25)
+          at executeDispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:389:3)
+          at executeDispatchesInOrder (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:414:5)
+          at executeDispatchesAndRelease (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
+          at executeDispatchesAndReleaseTopLevel (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
+          at forEachAccumulated (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
+          at runEventsInBatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
+          at runExtractedPluginEventsInBatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
+          at handleTopLevel (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
+          at batchedEventUpdates$1 (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
+          at batchedEventUpdates (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:795:12)
+          at dispatchEventForLegacyPluginEventSystem (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
+          at attemptToDispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
+          at dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
+          at unstable_runWithPriority (/home/kausik/Desktop/Budget-tracker/client/node_modules/scheduler/cjs/scheduler.development.js:653:12)
+          at runWithPriority$1 (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
+          at discreteUpdates$1 (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
+          at discreteUpdates (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:806:12)
+          at dispatchDiscreteEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLButtonElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLButtonElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLButtonElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34)
+          at /home/kausik/Desktop/Budget-tracker/client/node_modules/@testing-library/dom/dist/events.js:25:20
+          at /home/kausik/Desktop/Budget-tracker/client/node_modules/@testing-library/react/dist/pure.js:65:16
+          at batchedUpdates$1 (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+          at act (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+          at Object.eventWrapper (/home/kausik/Desktop/Budget-tracker/client/node_modules/@testing-library/react/dist/pure.js:64:28)
+          at fireEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/@testing-library/dom/dist/events.js:16:35)
+          at Function.fireEvent.<computed> [as click] (/home/kausik/Desktop/Budget-tracker/client/node_modules/@testing-library/dom/dist/events.js:119:36)
+          at Function.click (/home/kausik/Desktop/Budget-tracker/client/node_modules/@testing-library/react/dist/fire-event.js:18:52)
+          at Suite.<anonymous> (/home/kausik/Desktop/Budget-tracker/client/__tests__/js/components/BankPageRedirect.test.js:21:15)
+          at addSpecsToSuite (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-jasmine2/build/jasmine/Env.js:444:51)
+          at Env.describe (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-jasmine2/build/jasmine/Env.js:414:11)
+          at describe (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)
+          at Object.<anonymous> (/home/kausik/Desktop/Budget-tracker/client/__tests__/js/components/BankPageRedirect.test.js:18:1)
+          at Runtime._execModule (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-runtime/build/index.js:1204:24)
+          at Runtime._loadModule (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-runtime/build/index.js:815:12)
+          at Runtime.requireModule (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-runtime/build/index.js:676:10)
+          at jasmine2 (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-jasmine2/build/index.js:230:13)
+          at runTestInternal (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-runner/build/runTest.js:374:22)
+          at processTicksAndRejections (internal/process/task_queues.js:93:5)
+          at runTest (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-runner/build/runTest.js:454:34)
+          at Object.worker (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-runner/build/testWorker.js:129:12)
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:28)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:346:9)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+      at HTMLUnknownElementImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+      at HTMLUnknownElementImpl.dispatchEvent (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+      at HTMLUnknownElement.dispatchEvent (node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34)
+
+    console.error
+      Error: Uncaught [TypeError: Cannot read property 'addEventListener' of undefined]
+          at reportException (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:62:24)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:346:9)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLButtonElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLButtonElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLButtonElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34)
+          at /home/kausik/Desktop/Budget-tracker/client/node_modules/@testing-library/dom/dist/events.js:25:20
+          at /home/kausik/Desktop/Budget-tracker/client/node_modules/@testing-library/react/dist/pure.js:65:16
+          at batchedUpdates$1 (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+          at act (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14) TypeError: Cannot read property 'addEventListener' of undefined
+          at handleClick (/home/kausik/Desktop/Budget-tracker/client/src/js/_components/molecules/BankPageRedirect.js:16:17)
+          at HTMLUnknownElement.callCallback (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLUnknownElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLUnknownElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLUnknownElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34)
+          at Object.invokeGuardedCallbackDev (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+          at invokeGuardedCallback (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+          at invokeGuardedCallbackAndCatchFirstError (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:306:25)
+          at executeDispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:389:3)
+          at executeDispatchesInOrder (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:414:5)
+          at executeDispatchesAndRelease (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
+          at executeDispatchesAndReleaseTopLevel (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
+          at forEachAccumulated (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
+          at runEventsInBatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
+          at runExtractedPluginEventsInBatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
+          at handleTopLevel (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
+          at batchedEventUpdates$1 (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
+          at batchedEventUpdates (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:795:12)
+          at dispatchEventForLegacyPluginEventSystem (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
+          at attemptToDispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
+          at dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
+          at unstable_runWithPriority (/home/kausik/Desktop/Budget-tracker/client/node_modules/scheduler/cjs/scheduler.development.js:653:12)
+          at runWithPriority$1 (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
+          at discreteUpdates$1 (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
+          at discreteUpdates (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:806:12)
+          at dispatchDiscreteEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
+          at innerInvokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:330:27)
+          at invokeEventListeners (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+          at HTMLButtonElementImpl._dispatch (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+          at HTMLButtonElementImpl.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+          at HTMLButtonElement.dispatchEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34)
+          at /home/kausik/Desktop/Budget-tracker/client/node_modules/@testing-library/dom/dist/events.js:25:20
+          at /home/kausik/Desktop/Budget-tracker/client/node_modules/@testing-library/react/dist/pure.js:65:16
+          at batchedUpdates$1 (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+          at act (/home/kausik/Desktop/Budget-tracker/client/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+          at Object.eventWrapper (/home/kausik/Desktop/Budget-tracker/client/node_modules/@testing-library/react/dist/pure.js:64:28)
+          at fireEvent (/home/kausik/Desktop/Budget-tracker/client/node_modules/@testing-library/dom/dist/events.js:16:35)
+          at Function.fireEvent.<computed> [as click] (/home/kausik/Desktop/Budget-tracker/client/node_modules/@testing-library/dom/dist/events.js:119:36)
+          at Function.click (/home/kausik/Desktop/Budget-tracker/client/node_modules/@testing-library/react/dist/fire-event.js:18:52)
+          at Suite.<anonymous> (/home/kausik/Desktop/Budget-tracker/client/__tests__/js/components/BankPageRedirect.test.js:21:15)
+          at addSpecsToSuite (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-jasmine2/build/jasmine/Env.js:444:51)
+          at Env.describe (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-jasmine2/build/jasmine/Env.js:414:11)
+          at describe (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)
+          at Object.<anonymous> (/home/kausik/Desktop/Budget-tracker/client/__tests__/js/components/BankPageRedirect.test.js:18:1)
+          at Runtime._execModule (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-runtime/build/index.js:1204:24)
+          at Runtime._loadModule (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-runtime/build/index.js:815:12)
+          at Runtime.requireModule (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-runtime/build/index.js:676:10)
+          at jasmine2 (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-jasmine2/build/index.js:230:13)
+          at runTestInternal (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-runner/build/runTest.js:374:22)
+          at processTicksAndRejections (internal/process/task_queues.js:93:5)
+          at runTest (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-runner/build/runTest.js:454:34)
+          at Object.worker (/home/kausik/Desktop/Budget-tracker/client/node_modules/jest-runner/build/testWorker.js:129:12)
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:28)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:346:9)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:281:3)
+      at HTMLButtonElementImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:228:9)
+      at HTMLButtonElementImpl.dispatchEvent (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:101:17)
+      at HTMLButtonElement.dispatchEvent (node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:207:34)
+
+PASS __tests__/js/components/DeleteAccount.test.js
+PASS __tests__/js/components/_budget-expenses-card.test.js
+  ● Console
+
+    console.error
+      Warning: validateDOMNesting(...): <div> cannot appear as a descendant of <p>.
+          in div (created by Styled(MuiBox))
+          in Styled(MuiBox) (created by BudgetExpensesCard)
+          in p (created by ForwardRef(Typography))
+          in ForwardRef(Typography) (created by WithStyles(ForwardRef(Typography)))
+          in WithStyles(ForwardRef(Typography)) (created by BudgetExpensesCard)
+          in div (created by ForwardRef(Grid))
+          in ForwardRef(Grid) (created by WithStyles(ForwardRef(Grid)))
+          in WithStyles(ForwardRef(Grid)) (created by BudgetExpensesCard)
+          in div (created by ForwardRef(Grid))
+          in ForwardRef(Grid) (created by WithStyles(ForwardRef(Grid)))
+          in WithStyles(ForwardRef(Grid)) (created by BudgetExpensesCard)
+          in div (created by BudgetExpensesCard)
+          in div (created by ForwardRef(CardContent))
+          in ForwardRef(CardContent) (created by WithStyles(ForwardRef(CardContent)))
+          in WithStyles(ForwardRef(CardContent)) (created by BudgetExpensesCard)
+          in div (created by ForwardRef(Paper))
+          in ForwardRef(Paper) (created by WithStyles(ForwardRef(Paper)))
+          in WithStyles(ForwardRef(Paper)) (created by ForwardRef(Card))
+          in ForwardRef(Card) (created by WithStyles(ForwardRef(Card)))
+          in WithStyles(ForwardRef(Card)) (created by BudgetExpensesCard)
+          in div (created by BudgetExpensesCard)
+          in BudgetExpensesCard
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at validateDOMNesting (node_modules/react-dom/cjs/react-dom.development.js:7383:7)
+      at createInstance (node_modules/react-dom/cjs/react-dom.development.js:7479:5)
+      at completeWork (node_modules/react-dom/cjs/react-dom.development.js:18970:28)
+      at completeUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22189:16)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22165:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+
+PASS __tests__/js/components/ChangePassword.test.js
+PASS __tests__/js/components/_add-budget-card.test.js
+PASS __tests__/js/components/_budget-dashboard.test.js
+  ● Console
+
+    console.error
+      Warning: Each child in a list should have a unique "key" prop.
+      
+      Check the top-level render call using <WithStyles(ForwardRef(Grid))>. See https://fb.me/react-warning-keys for more information.
+          in WithStyles(ForwardRef(Grid))
+
+      161 |       </div>
+      162 |       <div className={classes.cards}>
+    > 163 |         <Grid container spacing={3} xs={12}>
+          |         ^
+      164 |           {metrics.map((metric, index) => {
+      165 |             index += 1;
+      166 |             return (
+
+      at printWarning (node_modules/react/cjs/react.development.js:315:30)
+      at error (node_modules/react/cjs/react.development.js:287:5)
+      at validateExplicitKey (node_modules/react/cjs/react.development.js:1630:5)
+      at validateChildKeys (node_modules/react/cjs/react.development.js:1656:9)
+      at Object.createElementWithValidation [as createElement] (node_modules/react/cjs/react.development.js:1806:7)
+      at BudgetDashboard (src/js/_components/templates/_budget-dashboard.js:163:9)
+      at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:829:32)
+      at node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:645:55
+
+    console.error
+      Warning: Failed prop type: The prop `xs` of `Grid` must be used on `item`.
+          in WithStyles(ForwardRef(Grid))
+
+      161 |       </div>
+      162 |       <div className={classes.cards}>
+    > 163 |         <Grid container spacing={3} xs={12}>
+          |         ^
+      164 |           {metrics.map((metric, index) => {
+      165 |             index += 1;
+      166 |             return (
+
+      at printWarning (node_modules/prop-types/checkPropTypes.js:20:15)
+      at checkPropTypes (node_modules/prop-types/checkPropTypes.js:82:11)
+      at validatePropTypes (node_modules/react/cjs/react.development.js:1714:7)
+      at Object.createElementWithValidation [as createElement] (node_modules/react/cjs/react.development.js:1813:5)
+      at BudgetDashboard (src/js/_components/templates/_budget-dashboard.js:163:9)
+      at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:829:32)
+      at fn (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:645:55)
+      at withSetStateAllowed (node_modules/enzyme-adapter-utils/src/Utils.js:99:18)
+
+    console.error
+      Warning: Each child in a list should have a unique "key" prop.
+      
+      Check the render method of `BudgetDashboard`. See https://fb.me/react-warning-keys for more information.
+          in WithStyles(ForwardRef(Grid)) (created by BudgetDashboard)
+          in BudgetDashboard
+
+      161 |       </div>
+      162 |       <div className={classes.cards}>
+    > 163 |         <Grid container spacing={3} xs={12}>
+          |         ^
+      164 |           {metrics.map((metric, index) => {
+      165 |             index += 1;
+      166 |             return (
+
+      at printWarning (node_modules/react/cjs/react.development.js:315:30)
+      at error (node_modules/react/cjs/react.development.js:287:5)
+      at validateExplicitKey (node_modules/react/cjs/react.development.js:1630:5)
+      at validateChildKeys (node_modules/react/cjs/react.development.js:1656:9)
+      at Object.createElementWithValidation [as createElement] (node_modules/react/cjs/react.development.js:1806:7)
+      at BudgetDashboard (src/js/_components/templates/_budget-dashboard.js:163:9)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+
+    console.error
+      Warning: validateDOMNesting(...): <div> cannot appear as a descendant of <p>.
+          in div (created by Styled(MuiBox))
+          in Styled(MuiBox) (created by BudgetDashboard)
+          in p (created by ForwardRef(Typography))
+          in ForwardRef(Typography) (created by WithStyles(ForwardRef(Typography)))
+          in WithStyles(ForwardRef(Typography)) (created by BudgetDashboard)
+          in div (created by BudgetDashboard)
+          in div (created by BudgetDashboard)
+          in BudgetDashboard
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at validateDOMNesting (node_modules/react-dom/cjs/react-dom.development.js:7383:7)
+      at createInstance (node_modules/react-dom/cjs/react-dom.development.js:7479:5)
+      at completeWork (node_modules/react-dom/cjs/react-dom.development.js:18970:28)
+      at completeUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22189:16)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22165:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+
+PASS __tests__/js/components/GeneralProfileTab.test.js
+PASS __tests__/js/components/GeneralNotifications.test.js
+PASS __tests__/js/components/HeaderIcons.test.js
+PASS __tests__/js/components/GeneralSettings.test.js
+PASS __tests__/js/components/ProfileSettingsTab.test.js
+PASS __tests__/js/components/MenuList.Test.js
+PASS __tests__/js/components/_temporary.test.js
+PASS __tests__/js/components/BasicProfileTab.test.js
+PASS __tests__/js/components/Title.test.js
+PASS __tests__/js/components/SettingsSideBar.test.js
+PASS __tests__/js/components/AvatarIcon.test.js
+
+  ●  Cannot log after tests are done. Did you forget to wait for something async in your test?
+    Attempted to log "Warning: An update to AvatarIcon inside a test was not wrapped in act(...).
+
+    When testing, code that causes React state updates should be wrapped into act(...):
+
+    act(() => {
+      /* fire events that update state */
+    });
+    /* assert on the output */
+
+    This ensures that you're testing the behavior the user would see in the browser. Learn more at https://fb.me/react-wrap-tests-with-act
+        in AvatarIcon (created by MenuList)
+        in div (created by ForwardRef(ListItemAvatar))
+        in ForwardRef(ListItemAvatar) (created by WithStyles(ForwardRef(ListItemAvatar)))
+        in WithStyles(ForwardRef(ListItemAvatar)) (created by MenuList)
+        in li (created by ForwardRef(ButtonBase))
+        in ForwardRef(ButtonBase) (created by WithStyles(ForwardRef(ButtonBase)))
+        in WithStyles(ForwardRef(ButtonBase)) (created by ForwardRef(ListItem))
+        in ForwardRef(ListItem) (created by WithStyles(ForwardRef(ListItem)))
+        in WithStyles(ForwardRef(ListItem)) (created by ForwardRef(MenuItem))
+        in ForwardRef(MenuItem) (created by WithStyles(ForwardRef(MenuItem)))
+        in WithStyles(ForwardRef(MenuItem)) (created by WithStyles(WithStyles(ForwardRef(MenuItem))))
+        in WithStyles(WithStyles(ForwardRef(MenuItem))) (created by ForwardRef(Menu))
+        in ul (created by ForwardRef(List))
+        in ForwardRef(List) (created by WithStyles(ForwardRef(List)))
+        in WithStyles(ForwardRef(List)) (created by ForwardRef(MenuList))
+        in ForwardRef(MenuList) (created by ForwardRef(Menu))
+        in div (created by ForwardRef(Paper))
+        in ForwardRef(Paper) (created by WithStyles(ForwardRef(Paper)))
+        in WithStyles(ForwardRef(Paper)) (created by Transition)
+        in Transition (created by ForwardRef(Grow))
+        in ForwardRef(Grow) (created by Unstable_TrapFocus)
+        in Unstable_TrapFocus (created by ForwardRef(Modal))
+        in div (created by ForwardRef(Modal))
+        in ForwardRef(Portal) (created by ForwardRef(Modal))
+        in ForwardRef(Modal) (created by ForwardRef(Popover))
+        in ForwardRef(Popover) (created by WithStyles(ForwardRef(Popover)))
+        in WithStyles(ForwardRef(Popover)) (created by ForwardRef(Menu))
+        in ForwardRef(Menu) (created by WithStyles(ForwardRef(Menu)))
+        in WithStyles(ForwardRef(Menu))
+        in Unknown (created by WithStyles(Component))
+        in WithStyles(Component) (created by MenuList)
+        in div (created by MenuList)
+        in MenuList (created by Context.Consumer)
+        in withRouter(MenuList) (created by AvatarDropdown)
+        in div (created by ForwardRef(Avatar))
+        in ForwardRef(Avatar) (created by WithStyles(ForwardRef(Avatar)))
+        in WithStyles(ForwardRef(Avatar)) (created by AvatarDropdown)
+        in AvatarDropdown (created by HeaderIcons)
+        in span (created by ForwardRef(IconButton))
+        in button (created by ForwardRef(ButtonBase))
+        in ForwardRef(ButtonBase) (created by WithStyles(ForwardRef(ButtonBase)))
+        in WithStyles(ForwardRef(ButtonBase)) (created by ForwardRef(IconButton))
+        in ForwardRef(IconButton) (created by WithStyles(ForwardRef(IconButton)))
+        in WithStyles(ForwardRef(IconButton)) (created by HeaderIcons)
+        in div (created by HeaderIcons)
+        in HeaderIcons (created by HomePageHeader)
+        in div (created by ForwardRef(Toolbar))
+        in ForwardRef(Toolbar) (created by WithStyles(ForwardRef(Toolbar)))
+        in WithStyles(ForwardRef(Toolbar)) (created by HomePageHeader)
+        in header (created by ForwardRef(Paper))
+        in ForwardRef(Paper) (created by WithStyles(ForwardRef(Paper)))
+        in WithStyles(ForwardRef(Paper)) (created by ForwardRef(AppBar))
+        in ForwardRef(AppBar) (created by WithStyles(ForwardRef(AppBar)))
+        in WithStyles(ForwardRef(AppBar)) (created by HomePageHeader)
+        in div (created by HomePageHeader)
+        in HomePageHeader (created by LeftNavBar)
+        in div (created by LeftNavBar)
+        in LeftNavBar
+        in Router (created by BrowserRouter)
+        in BrowserRouter".
+
+
+
+      at BufferedConsole.error (node_modules/@jest/console/build/BufferedConsole.js:165:10)
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at warnIfNotCurrentlyActingUpdatesInDEV (node_modules/react-dom/cjs/react-dom.development.js:23284:7)
+      at dispatchAction (node_modules/react-dom/cjs/react-dom.development.js:15656:9)
+      at _callee$ (src/js/_components/atoms/AvatarIcon.js:391:17)
+      at tryCatch (node_modules/regenerator-runtime/runtime.js:45:40)
+      at Generator.invoke [as _invoke] (node_modules/regenerator-runtime/runtime.js:274:22)
+      at Generator.prototype.<computed> [as next] (node_modules/regenerator-runtime/runtime.js:97:21)
+      at asyncGeneratorStep (node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+
+
+  ●  Cannot log after tests are done. Did you forget to wait for something async in your test?
+    Attempted to log "Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup function.
+        in AvatarIcon (created by MenuList)
+        in div (created by ForwardRef(ListItemAvatar))
+        in ForwardRef(ListItemAvatar) (created by WithStyles(ForwardRef(ListItemAvatar)))
+        in WithStyles(ForwardRef(ListItemAvatar)) (created by MenuList)
+        in li (created by ForwardRef(ButtonBase))
+        in ForwardRef(ButtonBase) (created by WithStyles(ForwardRef(ButtonBase)))
+        in WithStyles(ForwardRef(ButtonBase)) (created by ForwardRef(ListItem))
+        in ForwardRef(ListItem) (created by WithStyles(ForwardRef(ListItem)))
+        in WithStyles(ForwardRef(ListItem)) (created by ForwardRef(MenuItem))
+        in ForwardRef(MenuItem) (created by WithStyles(ForwardRef(MenuItem)))
+        in WithStyles(ForwardRef(MenuItem)) (created by WithStyles(WithStyles(ForwardRef(MenuItem))))
+        in WithStyles(WithStyles(ForwardRef(MenuItem))) (created by ForwardRef(Menu))
+        in ul (created by ForwardRef(List))
+        in ForwardRef(List) (created by WithStyles(ForwardRef(List)))
+        in WithStyles(ForwardRef(List)) (created by ForwardRef(MenuList))
+        in ForwardRef(MenuList) (created by ForwardRef(Menu))
+        in div (created by ForwardRef(Paper))
+        in ForwardRef(Paper) (created by WithStyles(ForwardRef(Paper)))
+        in WithStyles(ForwardRef(Paper)) (created by Transition)
+        in Transition (created by ForwardRef(Grow))
+        in ForwardRef(Grow) (created by Unstable_TrapFocus)
+        in Unstable_TrapFocus (created by ForwardRef(Modal))
+        in div (created by ForwardRef(Modal))
+        in ForwardRef(Portal) (created by ForwardRef(Modal))
+        in ForwardRef(Modal) (created by ForwardRef(Popover))
+        in ForwardRef(Popover) (created by WithStyles(ForwardRef(Popover)))
+        in WithStyles(ForwardRef(Popover)) (created by ForwardRef(Menu))
+        in ForwardRef(Menu) (created by WithStyles(ForwardRef(Menu)))
+        in WithStyles(ForwardRef(Menu))
+        in Unknown (created by WithStyles(Component))
+        in WithStyles(Component) (created by MenuList)
+        in div (created by MenuList)
+        in MenuList (created by Context.Consumer)
+        in withRouter(MenuList) (created by AvatarDropdown)
+        in div (created by ForwardRef(Avatar))
+        in ForwardRef(Avatar) (created by WithStyles(ForwardRef(Avatar)))
+        in WithStyles(ForwardRef(Avatar)) (created by AvatarDropdown)
+        in AvatarDropdown (created by HeaderIcons)
+        in span (created by ForwardRef(IconButton))
+        in button (created by ForwardRef(ButtonBase))
+        in ForwardRef(ButtonBase) (created by WithStyles(ForwardRef(ButtonBase)))
+        in WithStyles(ForwardRef(ButtonBase)) (created by ForwardRef(IconButton))
+        in ForwardRef(IconButton) (created by WithStyles(ForwardRef(IconButton)))
+        in WithStyles(ForwardRef(IconButton)) (created by HeaderIcons)
+        in div (created by HeaderIcons)
+        in HeaderIcons (created by HomePageHeader)
+        in div (created by ForwardRef(Toolbar))
+        in ForwardRef(Toolbar) (created by WithStyles(ForwardRef(Toolbar)))
+        in WithStyles(ForwardRef(Toolbar)) (created by HomePageHeader)
+        in header (created by ForwardRef(Paper))
+        in ForwardRef(Paper) (created by WithStyles(ForwardRef(Paper)))
+        in WithStyles(ForwardRef(Paper)) (created by ForwardRef(AppBar))
+        in ForwardRef(AppBar) (created by WithStyles(ForwardRef(AppBar)))
+        in WithStyles(ForwardRef(AppBar)) (created by HomePageHeader)
+        in div (created by HomePageHeader)
+        in HomePageHeader (created by LeftNavBar)
+        in div (created by LeftNavBar)
+        in LeftNavBar
+        in Router (created by BrowserRouter)
+        in BrowserRouter".
+
+
+
+      at BufferedConsole.error (node_modules/@jest/console/build/BufferedConsole.js:165:10)
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:88:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:60:5)
+      at warnAboutUpdateOnUnmountedFiberInDEV (node_modules/react-dom/cjs/react-dom.development.js:23161:5)
+      at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21169:5)
+      at dispatchAction (node_modules/react-dom/cjs/react-dom.development.js:15660:5)
+      at _callee$ (src/js/_components/atoms/AvatarIcon.js:391:17)
+      at tryCatch (node_modules/regenerator-runtime/runtime.js:45:40)
+      at Generator.invoke [as _invoke] (node_modules/regenerator-runtime/runtime.js:274:22)
+      at Generator.prototype.<computed> [as next] (node_modules/regenerator-runtime/runtime.js:97:21)
+
+-------------------------------------|---------|----------|---------|---------|------------------------
+File                                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s      
+-------------------------------------|---------|----------|---------|---------|------------------------
+All files                            |   54.74 |    41.18 |   44.75 |   55.26 |                        
+ client                              |       0 |      100 |       0 |       0 |                        
+  assetsTransformer.js               |       0 |      100 |       0 |       0 | 1-5                    
+ client/src                          |      80 |      100 |     100 |      80 |                        
+  App.js                             |     100 |      100 |     100 |     100 |                        
+  routes.js                          |     100 |      100 |     100 |     100 |                        
+  setupTests.js                      |       0 |      100 |     100 |       0 | 5                      
+  theme.js                           |     100 |      100 |     100 |     100 |                        
+ client/src/js/_components/atoms     |   78.84 |    60.53 |   65.43 |   81.99 |                        
+  AlreadySignedIn.js                 |     100 |      100 |     100 |     100 |                        
+  AnimationModalSuccess.js           |   74.07 |       75 |   71.43 |   73.08 | 41-43,52-53,57-58      
+  AvatarIcon.js                      |   41.67 |        0 |     100 |   41.67 | 11-17                  
+  BankLogoTile.js                    |     100 |      100 |     100 |     100 |                        
+  BankSelectionHeaderText.js         |     100 |      100 |     100 |     100 |                        
+  CircularProgressForLink.js         |   84.62 |        0 |   71.43 |   90.91 | 45                     
+  ConfirmPassword.js                 |     100 |      100 |     100 |     100 |                        
+  FormForSignup.js                   |   76.92 |       60 |     100 |   76.92 | 36-38                  
+  HeaderForForm.js                   |     100 |      100 |     100 |     100 |                        
+  LinkCheckPoints.js                 |   71.43 |        0 |      40 |   82.35 | 44,48,53               
+  SearchBar.js                       |     100 |      100 |     100 |     100 |                        
+  SideText1.js                       |     100 |      100 |     100 |     100 |                        
+  SideText2.js                       |     100 |      100 |     100 |     100 |                        
+  SideText3.js                       |     100 |      100 |     100 |     100 |                        
+  TextFields.js                      |     100 |    83.33 |     100 |     100 | 33                     
+  TextPasswordField.js               |     100 |      100 |     100 |     100 |                        
+  Title.js                           |     100 |      100 |     100 |     100 |                        
+  _account-balance-icon.js           |       0 |        0 |       0 |       0 | 7-17                   
+  _account-expense-icon.js           |       0 |        0 |       0 |       0 | 7-16                   
+  _account-income-icon.js            |       0 |        0 |       0 |       0 | 7-15                   
+  _amount.js                         |      40 |      100 |       0 |      50 | 21-22                  
+  _icon.js                           |      40 |      100 |       0 |      50 | 24-25                  
+  _left-nav-icon.js                  |     100 |      100 |     100 |     100 |                        
+  _menu-icon.js                      |     100 |      100 |     100 |     100 |                        
+  _overview-icon.js                  |       0 |        0 |       0 |       0 | 7-17                   
+  _pertext.js                        |      40 |      100 |       0 |      50 | 20-21                  
+  _piggy-bank-icon.js                |       0 |        0 |       0 |       0 | 7-17                   
+  _rupee-icon.js                     |     100 |      100 |     100 |     100 |                        
+  _smtitle.js                        |      40 |      100 |       0 |      50 | 21-22                  
+  _temporary.js                      |     100 |      100 |     100 |     100 |                        
+ client/src/js/_components/molecules |   42.18 |    28.57 |   34.31 |   42.07 |                        
+  AccordionForAccounts.js            |   72.41 |      100 |   57.14 |      76 | 110,120,159-173        
+  AvatarDropdown.js                  |   41.67 |        0 |     100 |   41.67 | 11-18                  
+  BankPageRedirect.js                |   61.54 |       50 |   66.67 |   61.54 | 17-20,27               
+  BankSelectionLayout1.js            |     100 |      100 |     100 |     100 |                        
+  BankSelectionLayout2.js            |     100 |      100 |     100 |     100 |                        
+  BasicProfileTab.js                 |      60 |      100 |      40 |   61.54 | 77-84                  
+  ChangePassword.js                  |      60 |        0 |   22.22 |   73.33 | 73-74,105,108          
+  DeleteAccount.js                   |      60 |        0 |   22.22 |   73.33 | 74-75,106,109          
+  GeneralNotifications.js            |   19.23 |      100 |   15.38 |      16 | 55-89,121-230          
+  GeneralSettings.js                 |   34.78 |      100 |      20 |   31.82 | 47-58,64,67,70,92-138  
+  HeaderIcons.js                     |     100 |      100 |     100 |     100 |                        
+  _add-budget-card.js                |     100 |      100 |     100 |     100 |                        
+  _chart.js                          |   18.18 |      100 |       0 |   18.18 | 15-16,126-138          
+  _expensechart.js                   |       0 |      100 |       0 |       0 | 9-14                   
+  _feedcard.js                       |   16.67 |      100 |       0 |   16.67 | 14-56                  
+  _list-menu-items.js                |     100 |      100 |     100 |     100 |                        
+  _pricecard.js                      |   16.67 |      100 |       0 |   16.67 | 14-65                  
+  _select-list.js                    |   90.48 |    68.75 |     100 |      90 | 40,46                  
+  _tcard.js                          |      25 |      100 |       0 |      25 | 85-88                  
+  _topcard.js                        |   16.67 |      100 |       0 |   16.67 | 11-63                  
+  _transactioncard.js                |    1.61 |        0 |       0 |    1.67 | 13-214                 
+ client/src/js/_components/organisms |    42.9 |    29.76 |   37.82 |    41.4 |                        
+  AccountsPage.js                    |     100 |      100 |     100 |     100 |                        
+  BankSelection.js                   |     100 |      100 |     100 |     100 |                        
+  BankTiles.js                       |     100 |      100 |     100 |     100 |                        
+  FormLayout.js                      |     100 |      100 |     100 |     100 |                        
+  GeneralProfileTab.js               |   90.91 |      100 |      50 |   90.48 | 38-59                  
+  HomePageHeader.js                  |     100 |      100 |     100 |     100 |                        
+  LoginPage.js                       |     100 |      100 |     100 |     100 |                        
+  MenuList.js                        |   81.25 |      100 |   57.14 |   78.57 | 70,76,80               
+  Navbar.js                          |     100 |      100 |     100 |     100 |                        
+  ProfileSettingsTab.js              |   71.43 |       25 |      50 |   69.23 | 37-39,62,66            
+  SettingsPage.js                    |     100 |      100 |     100 |     100 |                        
+  SettingsSideBar.js                 |   66.67 |        0 |   42.86 |      75 | 135-137,160            
+  SideText.js                        |     100 |      100 |     100 |     100 |                        
+  _add-budget-dialog-box.js          |   63.83 |       90 |   56.25 |   63.04 | 120-125,132-163,209    
+  _addtransaction.js                 |    1.82 |        0 |       0 |    1.85 | 13-387                 
+  _budget-expenses-card.js           |     100 |      100 |     100 |     100 |                        
+  _budget-metrics-card.js            |   88.89 |     62.5 |     100 |    87.5 | 55                     
+  _left-navbar.js                    |     100 |      100 |     100 |     100 |                        
+  _overview.js                       |    2.38 |        0 |       0 |    2.48 | 66-325                 
+ client/src/js/_components/templates |   78.05 |       50 |   52.63 |   83.78 |                        
+  _budget-dashboard.js               |   78.05 |       50 |   52.63 |   83.78 | 95,105,121,135,148,151 
+ client/src/js/utils                 |     100 |      100 |     100 |     100 |                        
+  colors.js                          |     100 |      100 |     100 |     100 |                        
+-------------------------------------|---------|----------|---------|---------|------------------------
+
+Snapshot Summary
+ › 2 snapshot files obsolete from 2 test suites. To remove them all, run `npm test -- -u`.
+   ↳   • __tests__/js/components/__snapshots__/BankSelection.test.js.snap
+       • __tests__/js/components/__snapshots__/Accordion.test.js.snap
+ › 4 snapshots obsolete from 2 test suites. To remove them all, run `npm test -- -u`.
+   ↳ __tests__/js/components/navbar.test.js
+       • FormLayout navbar snap shot 1
+       • FormLayout renders correctly 1
+   ↳ __tests__/js/components/AccordionAndAnimation.test.js
+       • Acoordion renders correctly Accordion CircularProgressForLink 1
+       • Acoordion renders correctly Accordion LinkCheckPoints 1
+
+Test Suites: 31 passed, 31 total
+Tests:       92 passed, 92 total
+Snapshots:   4 obsolete, 2 files obsolete, 42 passed, 42 total
+Time:        12.126 s
+Ran all test suites.
+[32mjest-html-reporter >> Report generated (/home/kausik/Desktop/Budget-tracker/client/test-report.html)[0m
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! client@1.0.0 test: `jest "--coverage"`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the client@1.0.0 test script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/kausik/.npm/_logs/2020-07-09T08_24_29_387Z-debug.log

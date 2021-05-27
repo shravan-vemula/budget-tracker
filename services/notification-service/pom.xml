@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.zemosolabs.multi</groupId>
+		<artifactId>services</artifactId>
+		<version>1.0</version>
+	</parent>
+
+	<groupId>com.zemosolabs.financialtracking</groupId>
+	<artifactId>bootcamp3-notification-service</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>bootcamp3-notification-service</name>
+	<description>Notification Manager Service for Bootcamp3 Budget Manager</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+
+		<sonar.projectKey>BC3-BudgetTracker-Notification</sonar.projectKey>
+		<sonar.organization>zemoso-int</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>62a1a40187c02df43d97ca861db2ae264764c3db</sonar.login>
+		<sonar.exclusions>**/entity/**,**/exception/**,**/dto/**</sonar.exclusions>
+	</properties>
+
+
+</project>

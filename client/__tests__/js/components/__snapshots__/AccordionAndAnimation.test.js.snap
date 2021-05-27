@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Acoordion renders correctly Accordion snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`Acoordion renders correctly SnapSHot LinkCheckPoints 1`] = `ShallowWrapper {}`;
+
+exports[`Acoordion renders correctly Snapshot CircularProgressForLink 1`] = `ShallowWrapper {}`;

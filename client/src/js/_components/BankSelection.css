@@ -1,0 +1,135 @@
+body{
+    background-color: #fafafb !important;
+}
+
+.bankSelection{
+    width: 80%;
+    height: 900px;
+    margin-top: 1%;
+    background-color: #fafafb;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+}
+
+.bankSelectBar{
+    background-color: white !important;
+    color: black !important;
+    height: "6% !important";
+}
+
+.logoBtracker{
+    width: 8%;
+}
+
+#logo{
+    cursor: pointer;
+}
+
+.BtrackerIcon{
+    width:100%
+}
+
+.logoutButton{
+    position: relative;
+    left: 80%;
+}
+
+.MuiToolbar-root{
+    height: 50px !important;
+    min-height: 40px !important;
+}
+
+.bankSelectionLayout1{
+    height: 95%;
+    width: 100%;
+    border-right: 2px solid;
+    border-right-color: #d4d7dc;
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
+
+.bankSelectionHeader{
+
+    font-size: 28px ;
+    font-weight: 200;
+
+}
+
+.bankSelectionHeader2{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#bank-tiles{
+    margin-top: 2%;
+}
+
+.optionalSelection{
+    color: #BABEC5;
+    margin-top: 5%;
+}
+
+.sideText1{
+    float: right;
+    text-align: left;
+    margin-left: 11%;
+}
+
+.sideText2{
+    margin-top: 1% !important;
+    text-align: left;
+    margin-right: 1% !important;
+}
+.sideText3{
+    
+    margin-right: 10% !important;
+}
+
+.lockIcon{
+    display: inline-block;
+    float: left;
+}
+
+.IconStyle{
+    position: relative;
+    top: 50%;
+    margin-left: 30%;
+    margin-top: 40%;
+}
+
+.SideTextSteps2{
+    margin-top: 0px !important;
+}
+
+.sideText2 li{
+    list-style-type: none;
+}
+
+.text2{
+    display: inline-block;
+}
+
+.sideText1 h1{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.sideText1 li {
+    font-size: 14px;
+    font-weight: 200;
+    color: slategray;
+}
+
+.SideTextSteps{
+    padding-left: 15px !important;
+
+}
+
+.SideTextSteps li{
+    margin: 2%;
+
+}

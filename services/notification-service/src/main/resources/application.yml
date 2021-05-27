@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: notification-service
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/budget_tracker_app_notification_data
+    username: postgres
+    password: zemoso123
+  flyway:
+    enabled: false
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+server:
+  port: 8080
